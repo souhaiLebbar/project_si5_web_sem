@@ -1,0 +1,26 @@
+{
+    "@context": ["http://www.w3.org/ns/csvw",{"@language":"en"}],
+    "url": "../data/symptom-severity.csv",
+    "tableSchema": {
+        "primaryKey" : "Symptom",
+        "columns": [
+        {
+            "name":"Symptom",
+            "datatype" : "string",
+            "propertyUrl": "schema:name",
+            "dc:description" : "symptom name"
+        },{
+            "name": "weight",
+            "datatype" : "integer",
+            "propertyUrl": "http://www.inria.org/property/hasWeight",
+            "dc:description": "the weight of the symptom"
+        },
+        {
+            "name": "type_disease",
+            "virtual": true,
+            "propertyUrl": "rdf:type",
+            "valueUrl": "http://www.inria.org/entity/Syndrom"
+        }
+        ]
+      }
+}

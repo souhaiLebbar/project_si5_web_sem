@@ -1,0 +1,45 @@
+{
+    "@context": ["http://www.w3.org/ns/csvw",{"@language":"en"}],
+    "url": "../data/symptom_precaution.csv",
+    "aboutUrl": "http://www.inria.org/entity/{Disease}",
+    "tableSchema": {
+        "primaryKey" : "Disease",
+        "columns": [{
+            "name": "Disease",
+            "datatype" : "string",
+            "propertyUrl": "schema:name",
+            "dc:description": "Disease name"
+        },
+        {
+            "name":"Precaution_1",
+            "datatype" : "string",
+            "propertyUrl": "http://www.inria.org/property/hasTherapy",
+            "dc:description" : "1st precaution of the disease."
+        },
+        {
+            "name":"Precaution_2",
+            "datatype" : "string",
+            "propertyUrl": "http://www.inria.org/property/hasTherapy",
+            "dc:description" : "2nd precaution of the disease."
+        },
+        {
+            "name":"Precaution_3",
+            "datatype" : "string",
+            "propertyUrl": "http://www.inria.org/property/hasTherapy",
+            "dc:description" : "3rd precaution of the disease."
+        },
+        {
+            "name":"Precaution_4",
+            "datatype" : "string",
+            "propertyUrl": "http://www.inria.org/property/hasTherapy",
+            "dc:description" : "4th precaution of the disease."
+        },
+        {
+            "name": "type_disease",
+            "virtual": true,
+            "propertyUrl": "rdf:type",
+            "valueUrl": "http://www.inria.org/entity/Disease"
+        }
+        ]
+      }
+}

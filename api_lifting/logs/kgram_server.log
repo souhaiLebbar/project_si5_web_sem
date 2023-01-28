@@ -1,0 +1,62 @@
+2023-01-24 22:32:44 INFO  webservice.EmbeddedJettyServer.main:117 [] - Loading log4j configuration: file:/usr/local/corese/log4j2.xml
+2023-01-24 22:32:44 INFO  webservice.EmbeddedJettyServer.main:118 [] - To override log4j configuration add JVM option: -Dlog4j.configurationFile=file:/home/.../your_log4j2.xml
+2023-01-24 22:32:44 INFO  core.Corese.init:14 [] - Corese, Inria: Tue Jan 24 22:32:44 UTC 2023
+2023-01-24 22:32:44 INFO  webservice.EmbeddedJettyServer.main:231 [] - Profile: file:///tmp/corese-profile-sms.ttl
+2023-01-24 22:32:44 INFO  webservice.EmbeddedJettyServer.main:255 [] - su
+2023-01-24 22:32:44 INFO  webservice.EmbeddedJettyServer.main:300 [] - Reentrant query
+2023-01-24 22:32:44 INFO  webservice.EmbeddedJettyServer.main:306 [] - BASE_URI = http://localhost:8081/
+2023-01-24 22:32:44 INFO  webservice.EmbeddedJettyServer.main:308 [] - ----------------------------------------------
+2023-01-24 22:32:44 INFO  webservice.EmbeddedJettyServer.main:309 [] - Corese/KGRAM endpoint started on http://localhost:8081/sparql
+2023-01-24 22:32:44 INFO  log.Log.initialized:192 [] - Logging initialized @1054ms to org.eclipse.jetty.util.log.Slf4jLog
+2023-01-24 22:32:44 INFO  vfs.VfsLog.info:122 [] - Using "/tmp/vfs_cache" as temporary files store.
+2023-01-24 22:32:45 INFO  webservice.EmbeddedJettyServer.extractResourceDir:428 [] - Extracting directory webapp to file:///tmp/root
+2023-01-24 22:32:45 INFO  webservice.EmbeddedJettyServer.main:319 [] - Webapp dir: file:///tmp/root/webapp
+2023-01-24 22:32:45 INFO  webservice.EmbeddedJettyServer.main:324 [] - Corese/KGRAM webapp UI started on http://localhost:8081
+2023-01-24 22:32:45 INFO  webservice.EmbeddedJettyServer.main:325 [] - ----------------------------------------------
+2023-01-24 22:32:45 WARN  handler.ContextHandler.setContextPath:1492 [] - o.e.j.s.ServletContextHandler@5c35267d{/,null,UNAVAILABLE} contextPath ends with /*
+2023-01-24 22:32:45 WARN  handler.ContextHandler.setContextPath:1503 [] - Empty contextPath
+2023-01-24 22:32:45 INFO  server.Server.doStart:373 [] - jetty-9.4.z-SNAPSHOT
+2023-01-24 22:32:45 INFO  handler.ContextHandler.doStart:788 [] - Started o.e.j.s.h.ContextHandler@772f3774{/,null,AVAILABLE}
+2023-01-24 22:32:47 INFO  handler.ContextHandler.doStart:788 [] - Started o.e.j.s.ServletContextHandler@5c35267d{/,null,AVAILABLE}
+2023-01-24 22:32:47 INFO  server.AbstractConnector.doStart:286 [] - Started ServerConnector@7bcccbd2{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2023-01-24 22:32:47 INFO  server.Server.doStart:441 [] - Started @3661ms
+2023-01-24 22:32:47 INFO  webservice.SPARQLRestAPI.initRDF:153 [] - entering initRDF
+2023-01-24 22:32:47 INFO  webservice.SPARQLRestAPI.init:202 [] - Load: file:///tmp/corese-profile-sms.ttl
+2023-01-24 22:32:47 INFO  webservice.Profile.init:309 [] - Load: http://38f105da7d13:8081/data/profile.ttl
+2023-01-24 22:32:47 INFO  load.Service.load:452 [] - load accept format: http://38f105da7d13:8081/data/profile.ttl text/turtle
+2023-01-24 22:32:47 INFO  webservice.Profile.init:312 [] - Load: file:///tmp/corese-profile-sms.ttl
+2023-01-24 22:32:48 INFO  webservice.Profile.initParameter:423 [] - Parameter Context
+2023-01-24 22:32:48 INFO  webservice.Profile.initParameter:424 [] - level: PRIVATE
+
+2023-01-24 22:32:48 INFO  webservice.SPARQLRestAPI.init:176 [] - key: 995f6f76-f253-41a6-88c8-52cfb2ad91d5
+2023-01-24 22:38:02 INFO  webservice.EmbeddedJettyServer.main:117 [] - Loading log4j configuration: file:/usr/local/corese/log4j2.xml
+2023-01-24 22:38:02 INFO  webservice.EmbeddedJettyServer.main:118 [] - To override log4j configuration add JVM option: -Dlog4j.configurationFile=file:/home/.../your_log4j2.xml
+2023-01-24 22:38:02 INFO  core.Corese.init:14 [] - Corese, Inria: Tue Jan 24 22:38:02 UTC 2023
+2023-01-24 22:38:02 INFO  webservice.EmbeddedJettyServer.main:231 [] - Profile: file:///tmp/corese-profile-sms.ttl
+2023-01-24 22:38:02 INFO  webservice.EmbeddedJettyServer.main:255 [] - su
+2023-01-24 22:38:02 INFO  webservice.EmbeddedJettyServer.main:300 [] - Reentrant query
+2023-01-24 22:38:03 INFO  webservice.EmbeddedJettyServer.main:306 [] - BASE_URI = http://localhost:8081/
+2023-01-24 22:38:03 INFO  webservice.EmbeddedJettyServer.main:308 [] - ----------------------------------------------
+2023-01-24 22:38:03 INFO  webservice.EmbeddedJettyServer.main:309 [] - Corese/KGRAM endpoint started on http://localhost:8081/sparql
+2023-01-24 22:38:03 INFO  log.Log.initialized:192 [] - Logging initialized @1069ms to org.eclipse.jetty.util.log.Slf4jLog
+2023-01-24 22:38:03 INFO  vfs.VfsLog.info:122 [] - Using "/tmp/vfs_cache" as temporary files store.
+2023-01-24 22:38:04 INFO  webservice.EmbeddedJettyServer.extractResourceDir:428 [] - Extracting directory webapp to file:///tmp/root
+2023-01-24 22:38:04 INFO  webservice.EmbeddedJettyServer.main:319 [] - Webapp dir: file:///tmp/root/webapp
+2023-01-24 22:38:04 INFO  webservice.EmbeddedJettyServer.main:324 [] - Corese/KGRAM webapp UI started on http://localhost:8081
+2023-01-24 22:38:04 INFO  webservice.EmbeddedJettyServer.main:325 [] - ----------------------------------------------
+2023-01-24 22:38:04 WARN  handler.ContextHandler.setContextPath:1492 [] - o.e.j.s.ServletContextHandler@5c35267d{/,null,UNAVAILABLE} contextPath ends with /*
+2023-01-24 22:38:04 WARN  handler.ContextHandler.setContextPath:1503 [] - Empty contextPath
+2023-01-24 22:38:04 INFO  server.Server.doStart:373 [] - jetty-9.4.z-SNAPSHOT
+2023-01-24 22:38:04 INFO  handler.ContextHandler.doStart:788 [] - Started o.e.j.s.h.ContextHandler@772f3774{/,null,AVAILABLE}
+2023-01-24 22:38:04 INFO  handler.ContextHandler.doStart:788 [] - Started o.e.j.s.ServletContextHandler@5c35267d{/,null,AVAILABLE}
+2023-01-24 22:38:04 INFO  server.AbstractConnector.doStart:286 [] - Started ServerConnector@7bcccbd2{HTTP/1.1,[http/1.1]}{0.0.0.0:8081}
+2023-01-24 22:38:04 INFO  server.Server.doStart:441 [] - Started @2902ms
+2023-01-24 22:38:05 INFO  webservice.SPARQLRestAPI.initRDF:153 [] - entering initRDF
+2023-01-24 22:38:05 INFO  webservice.SPARQLRestAPI.init:202 [] - Load: file:///tmp/corese-profile-sms.ttl
+2023-01-24 22:38:05 INFO  webservice.Profile.init:309 [] - Load: http://c13951c1ebea:8081/data/profile.ttl
+2023-01-24 22:38:05 INFO  load.Service.load:452 [] - load accept format: http://c13951c1ebea:8081/data/profile.ttl text/turtle
+2023-01-24 22:38:05 INFO  webservice.Profile.init:312 [] - Load: file:///tmp/corese-profile-sms.ttl
+2023-01-24 22:38:05 INFO  webservice.Profile.initParameter:423 [] - Parameter Context
+2023-01-24 22:38:05 INFO  webservice.Profile.initParameter:424 [] - level: PRIVATE
+
+2023-01-24 22:38:05 INFO  webservice.SPARQLRestAPI.init:176 [] - key: f02dbb8a-e268-4539-9b69-fa7a1753e5c0

@@ -1,0 +1,466 @@
+
+<http://www.inria.org/entity/Drug%20Reaction> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "An adverse drug reaction (ADR) is an injury caused by taking medication. ADRs may occur following a single dose or prolonged administration of a drug or result from the combination of two or more drugs.";
+  <http://schema.org/name> "Drug Reaction" .
+
+<http://www.inria.org/entity/Malaria> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "An infectious disease caused by protozoan parasites from the Plasmodium family that can be transmitted by the bite of the Anopheles mosquito or by a contaminated needle or transfusion. Falciparum malaria is the most deadly type.";
+  <http://schema.org/name> "Malaria" .
+
+<http://www.inria.org/entity/Allergy> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "An allergy is an immune system response to a foreign substance that's not typically harmful to your body.They can include certain foods, pollen, or pet dander. Your immune system's job is to keep you healthy by fighting harmful pathogens.";
+  <http://schema.org/name> "Allergy" .
+
+<http://www.inria.org/entity/Hypothyroidism> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Hypothyroidism, also called underactive thyroid or low thyroid, is a disorder of the endocrine system in which the thyroid gland does not produce enough thyroid hormone.";
+  <http://schema.org/name> "Hypothyroidism" .
+
+<http://www.inria.org/entity/Psoriasis> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Psoriasis is a common skin disorder that forms thick, red, bumpy patches covered with silvery scales. They can pop up anywhere, but most appear on the scalp, elbows, knees, and lower back. Psoriasis can't be passed from person to person. It does sometimes happen in members of the same family.";
+  <http://schema.org/name> "Psoriasis" .
+
+<http://www.inria.org/entity/GERD> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Gastroesophageal reflux disease, or GERD, is a digestive disorder that affects the lower esophageal sphincter (LES), the ring of muscle between the esophagus and stomach. Many people, including pregnant women, suffer from heartburn or acid indigestion caused by GERD.";
+  <http://schema.org/name> "GERD" .
+
+<http://www.inria.org/entity/Chronic%20cholestasis> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Chronic cholestatic diseases, whether occurring in infancy, childhood or adulthood, are characterized by defective bile acid transport from the liver to the intestine, which is caused by primary damage to the biliary epithelium in most cases";
+  <http://schema.org/name> "Chronic cholestasis" .
+
+<http://www.inria.org/entity/hepatitis%20A> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Hepatitis A is a highly contagious liver infection caused by the hepatitis A virus. The virus is one of several types of hepatitis viruses that cause inflammation and affect your liver's ability to function.";
+  <http://schema.org/name> "hepatitis A" .
+
+<http://www.inria.org/entity/Osteoarthristis> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Osteoarthritis is the most common form of arthritis, affecting millions of people worldwide. It occurs when the protective cartilage that cushions the ends of your bones wears down over time.";
+  <http://schema.org/name> "Osteoarthristis" .
+
+<http://www.inria.org/entity/%28vertigo%29%20Paroymsal%20%20Positional%20Vertigo>
+  a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Benign paroxysmal positional vertigo (BPPV) is one of the most common causes of vertigo — the sudden sensation that you're spinning or that the inside of your head is spinning. Benign paroxysmal positional vertigo causes brief episodes of mild to intense dizziness.";
+  <http://schema.org/name> "(vertigo) Paroymsal  Positional Vertigo" .
+
+<http://www.inria.org/entity/Hypoglycemia> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Hypoglycemia is a condition in which your blood sugar (glucose) level is lower than normal. Glucose is your body's main energy source. Hypoglycemia is often related to diabetes treatment. But other drugs and a variety of conditions — many rare — can cause low blood sugar in people who don't have diabetes.";
+  <http://schema.org/name> "Hypoglycemia" .
+
+<http://www.inria.org/entity/Acne> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Acne vulgaris is the formation of comedones, papules, pustules, nodules, and/or cysts as a result of obstruction and inflammation of pilosebaceous units (hair follicles and their accompanying sebaceous gland). Acne develops on the face and upper trunk. It most often affects adolescents.";
+  <http://schema.org/name> "Acne" .
+
+<http://www.inria.org/entity/Diabetes> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Diabetes is a disease that occurs when your blood glucose, also called blood sugar, is too high. Blood glucose is your main source of energy and comes from the food you eat. Insulin, a hormone made by the pancreas, helps glucose from food get into your cells to be used for energy.";
+  <http://schema.org/name> "Diabetes" .
+
+<http://www.inria.org/entity/Impetigo> <http://schema.org/name> "Impetigo" .
+
+_:tablegroup__1 a <http://www.w3.org/ns/csvw#TableGroup>;
+  <http://www.w3.org/ns/csvw#table> _:table__2 .
+
+_:table__2 a <http://www.w3.org/ns/csvw#Table>;
+  <http://www.w3.org/ns/csvw#row> _:row__11 .
+
+_:row__11 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Psoriasis>;
+  <http://www.w3.org/ns/csvw#rownum> 5;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=6> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__13 .
+
+_:row__13 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/GERD>;
+  <http://www.w3.org/ns/csvw#rownum> 6;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=7> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__15 .
+
+_:row__15 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Chronic%20cholestasis>;
+  <http://www.w3.org/ns/csvw#rownum> 7;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=8> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__17 .
+
+_:row__17 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/hepatitis%20A>;
+  <http://www.w3.org/ns/csvw#rownum> 8;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=9> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__19 .
+
+_:row__19 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Osteoarthristis>;
+  <http://www.w3.org/ns/csvw#rownum> 9;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=10> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__21 .
+
+_:row__21 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/%28vertigo%29%20Paroymsal%20%20Positional%20Vertigo>;
+  <http://www.w3.org/ns/csvw#rownum> 10;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=11> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__23 .
+
+_:row__23 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hypoglycemia>;
+  <http://www.w3.org/ns/csvw#rownum> 11;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=12> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__25 .
+
+_:row__25 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Acne>;
+  <http://www.w3.org/ns/csvw#rownum> 12;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=13> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__27 .
+
+_:row__27 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Diabetes>;
+  <http://www.w3.org/ns/csvw#rownum> 13;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=14> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__29 .
+
+_:row__29 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Impetigo>;
+  <http://www.w3.org/ns/csvw#rownum> 14;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=15> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__3 .
+
+_:row__3 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Drug%20Reaction>;
+  <http://www.w3.org/ns/csvw#rownum> 1;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=2> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__31 .
+
+_:row__31 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hypertension>;
+  <http://www.w3.org/ns/csvw#rownum> 15;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=16> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__33 .
+
+_:row__33 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Peptic%20ulcer%20diseae>;
+  <http://www.w3.org/ns/csvw#rownum> 16;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=17> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__35 .
+
+_:row__35 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Dimorphic%20hemorrhoids%28piles%29>;
+  <http://www.w3.org/ns/csvw#rownum> 17;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=18> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__37 .
+
+_:row__37 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Common%20Cold>;
+  <http://www.w3.org/ns/csvw#rownum> 18;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=19> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__39 .
+
+_:row__39 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Chicken%20pox>;
+  <http://www.w3.org/ns/csvw#rownum> 19;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=20> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__41 .
+
+_:row__41 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Cervical%20spondylosis>;
+  <http://www.w3.org/ns/csvw#rownum> 20;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=21> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__43 .
+
+_:row__43 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hyperthyroidism>;
+  <http://www.w3.org/ns/csvw#rownum> 21;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=22> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__45 .
+
+_:row__45 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Urinary%20tract%20infection>;
+  <http://www.w3.org/ns/csvw#rownum> 22;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=23> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__47 .
+
+_:row__47 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Varicose%20veins>;
+  <http://www.w3.org/ns/csvw#rownum> 23;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=24> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__49 .
+
+_:row__49 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/AIDS>;
+  <http://www.w3.org/ns/csvw#rownum> 24;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=25> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__5 .
+
+_:row__5 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Malaria>;
+  <http://www.w3.org/ns/csvw#rownum> 2;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=3> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__51 .
+
+_:row__51 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Paralysis%20%28brain%20hemorrhage%29>;
+  <http://www.w3.org/ns/csvw#rownum> 25;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=26> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__53 .
+
+_:row__53 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Typhoid>;
+  <http://www.w3.org/ns/csvw#rownum> 26;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Typhoid>;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=27> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__55 .
+
+_:row__55 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 27;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=28>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20B> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__7 .
+
+_:row__7 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Allergy>;
+  <http://www.w3.org/ns/csvw#rownum> 3;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=4> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__57 .
+
+_:row__57 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 28;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=29>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Fungal%20infection> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__9 .
+
+_:row__9 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hypothyroidism>;
+  <http://www.w3.org/ns/csvw#rownum> 4;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=5> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__59 .
+
+_:row__59 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 29;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=30>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20C> .
+
+_:table__2 <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv> .
+
+<http://www.inria.org/entity/Impetigo> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Impetigo (im-puh-TIE-go) is a common and highly contagious skin infection that mainly affects infants and children. Impetigo usually appears as red sores on the face, especially around a child's nose and mouth, and on hands and feet. The sores burst and develop honey-colored crusts." .
+
+<http://www.inria.org/entity/Hypertension> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Hypertension (HTN or HT), also known as high blood pressure (HBP), is a long-term medical condition in which the blood pressure in the arteries is persistently elevated. High blood pressure typically does not cause symptoms.";
+  <http://schema.org/name> "Hypertension" .
+
+<http://www.inria.org/entity/Peptic%20ulcer%20diseae> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Peptic ulcer disease (PUD) is a break in the inner lining of the stomach, the first part of the small intestine, or sometimes the lower esophagus. An ulcer in the stomach is called a gastric ulcer, while one in the first part of the intestines is a duodenal ulcer.";
+  <http://schema.org/name> "Peptic ulcer diseae" .
+
+<http://www.inria.org/entity/Dimorphic%20hemorrhoids%28piles%29> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Hemorrhoids, also spelled haemorrhoids, are vascular structures in the anal canal. In their ... Other names, Haemorrhoids, piles, hemorrhoidal disease .";
+  <http://schema.org/name> "Dimorphic hemorrhoids(piles)" .
+
+<http://www.inria.org/entity/Common%20Cold> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "The common cold is a viral infection of your nose and throat (upper respiratory tract). It's usually harmless, although it might not feel that way. Many types of viruses can cause a common cold.";
+  <http://schema.org/name> "Common Cold" .
+
+<http://www.inria.org/entity/Chicken%20pox> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Chickenpox is a highly contagious disease caused by the varicella-zoster virus (VZV). It can cause an itchy, blister-like rash. The rash first appears on the chest, back, and face, and then spreads over the entire body, causing between 250 and 500 itchy blisters.";
+  <http://schema.org/name> "Chicken pox" .
+
+<http://www.inria.org/entity/Cervical%20spondylosis> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Cervical spondylosis is a general term for age-related wear and tear affecting the spinal disks in your neck. As the disks dehydrate and shrink, signs of osteoarthritis develop, including bony projections along the edges of bones (bone spurs).";
+  <http://schema.org/name> "Cervical spondylosis" .
+
+<http://www.inria.org/entity/Hyperthyroidism> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Hyperthyroidism (overactive thyroid) occurs when your thyroid gland produces too much of the hormone thyroxine. Hyperthyroidism can accelerate your body's metabolism, causing unintentional weight loss and a rapid or irregular heartbeat.";
+  <http://schema.org/name> "Hyperthyroidism" .
+
+<http://www.inria.org/entity/Urinary%20tract%20infection> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Urinary tract infection: An infection of the kidney, ureter, bladder, or urethra. Abbreviated UTI. Not everyone with a UTI has symptoms, but common symptoms include a frequent urge to urinate and pain or burning when urinating.";
+  <http://schema.org/name> "Urinary tract infection" .
+
+<http://www.inria.org/entity/Varicose%20veins> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "A vein that has enlarged and twisted, often appearing as a bulging, blue blood vessel that is clearly visible through the skin. Varicose veins are most common in older adults, particularly women, and occur especially on the legs.";
+  <http://schema.org/name> "Varicose veins" .
+
+<http://www.inria.org/entity/AIDS> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Acquired immunodeficiency syndrome (AIDS) is a chronic, potentially life-threatening condition caused by the human immunodeficiency virus (HIV). By damaging your immune system, HIV interferes with your body's ability to fight infection and disease.";
+  <http://schema.org/name> "AIDS" .
+
+<http://www.inria.org/entity/Paralysis%20%28brain%20hemorrhage%29> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Intracerebral hemorrhage (ICH) is when blood suddenly bursts into brain tissue, causing damage to your brain. Symptoms usually appear suddenly during ICH. They include headache, weakness, confusion, and paralysis, particularly on one side of your body.";
+  <http://schema.org/name> "Paralysis (brain hemorrhage)" .
+
+<http://www.inria.org/entity/Typhoid> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "An acute illness characterized by fever caused by infection with the bacterium Salmonella typhi. Typhoid fever has an insidious onset, with fever, headache, constipation, malaise, chills, and muscle pain. Diarrhea is uncommon, and vomiting is not usually severe.";
+  <http://schema.org/name> "Typhoid" .
+
+<http://www.inria.org/entity/Hepatitis%20B> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Hepatitis B is an infection of your liver. It can cause scarring of the organ, liver failure, and cancer. It can be fatal if it isn't treated. It's spread when people come in contact with the blood, open sores, or body fluids of someone who has the hepatitis B virus.";
+  <http://schema.org/name> "Hepatitis B" .
+
+<http://www.inria.org/entity/Fungal%20infection> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "In humans, fungal infections occur when an invading fungus takes over an area of the body and is too much for the immune system to handle. Fungi can live in the air, soil, water, and plants. There are also some fungi that live naturally in the human body. Like many microbes, there are helpful fungi and harmful fungi.";
+  <http://schema.org/name> "Fungal infection" .
+
+<http://www.inria.org/entity/Hepatitis%20C> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Inflammation of the liver due to the hepatitis C virus (HCV), which is usually spread via blood transfusion (rare), hemodialysis, and needle sticks. The damage hepatitis C does to the liver can lead to cirrhosis and its complications as well as cancer.";
+  <http://schema.org/name> "Hepatitis C" .
+
+<http://www.inria.org/entity/Migraine> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "A migraine can cause severe throbbing pain or a pulsing sensation, usually on one side of the head. It's often accompanied by nausea, vomiting, and extreme sensitivity to light and sound. Migraine attacks can last for hours to days, and the pain can be so severe that it interferes with your daily activities.";
+  <http://schema.org/name> "Migraine" .
+
+<http://www.inria.org/entity/Bronchial%20Asthma> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Bronchial asthma is a medical condition which causes the airway path of the lungs to swell and narrow. Due to this swelling, the air path produces excess mucus making it hard to breathe, which results in coughing, short breath, and wheezing. The disease is chronic and interferes with daily working.";
+  <http://schema.org/name> "Bronchial Asthma" .
+
+<http://www.inria.org/entity/Alcoholic%20hepatitis> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Alcoholic hepatitis is a diseased, inflammatory condition of the liver caused by heavy alcohol consumption over an extended period of time. It's also aggravated by binge drinking and ongoing alcohol use. If you develop this condition, you must stop drinking alcohol";
+  <http://schema.org/name> "Alcoholic hepatitis" .
+
+<http://www.inria.org/entity/Jaundice> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Yellow staining of the skin and sclerae (the whites of the eyes) by abnormally high blood levels of the bile pigment bilirubin. The yellowing extends to other tissues and body fluids. Jaundice was once called the \"morbus regius\" (the regal disease) in the belief that only the touch of a king could cure it";
+  <http://schema.org/name> "Jaundice" .
+
+<http://www.inria.org/entity/Hepatitis%20E> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "A rare form of liver inflammation caused by infection with the hepatitis E virus (HEV). It is transmitted via food or drink handled by an infected person or through infected water supplies in areas where fecal matter may get into the water. Hepatitis E does not cause chronic liver disease.";
+  <http://schema.org/name> "Hepatitis E" .
+
+<http://www.inria.org/entity/Dengue> <http://schema.org/description> "an acute infectious disease caused by a flavivirus (species Dengue virus of the genus Flavivirus), transmitted by aedes mosquitoes, and characterized by headache, severe joint pain, and a rash. — called also breakbone fever, dengue fever.";
+  a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/name> "Dengue" .
+
+_:row__55 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20B> .
+
+_:row__57 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Fungal%20infection> .
+
+_:row__59 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20C> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__61 .
+
+_:row__61 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Migraine>;
+  <http://www.w3.org/ns/csvw#rownum> 30;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=31> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__63 .
+
+_:row__63 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Bronchial%20Asthma>;
+  <http://www.w3.org/ns/csvw#rownum> 31;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=32> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__65 .
+
+_:row__65 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Alcoholic%20hepatitis>;
+  <http://www.w3.org/ns/csvw#rownum> 32;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=33> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__67 .
+
+_:row__67 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Jaundice>;
+  <http://www.w3.org/ns/csvw#rownum> 33;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=34> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__69 .
+
+_:row__69 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20E>;
+  <http://www.w3.org/ns/csvw#rownum> 34;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=35> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__71 .
+
+_:row__71 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Dengue>;
+  <http://www.w3.org/ns/csvw#rownum> 35;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=36> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__73 .
+
+_:row__73 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20D>;
+  <http://www.w3.org/ns/csvw#rownum> 36;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=37> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__75 .
+
+_:row__75 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Heart%20attack>;
+  <http://www.w3.org/ns/csvw#rownum> 37;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=38> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__77 .
+
+_:row__77 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Pneumonia>;
+  <http://www.w3.org/ns/csvw#rownum> 38;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=39> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__79 .
+
+_:row__79 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Arthritis>;
+  <http://www.w3.org/ns/csvw#rownum> 39;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=40> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__81 .
+
+_:row__81 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Gastroenteritis>;
+  <http://www.w3.org/ns/csvw#rownum> 40;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=41> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__83 .
+
+_:row__83 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Tuberculosis>;
+  <http://www.w3.org/ns/csvw#rownum> 41;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_Description.csv#row=42> .
+
+<http://www.inria.org/entity/Hepatitis%20D> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Hepatitis D, also known as the hepatitis delta virus, is an infection that causes the liver to become inflamed. This swelling can impair liver function and cause long-term liver problems, including liver scarring and cancer. The condition is caused by the hepatitis D virus (HDV).";
+  <http://schema.org/name> "Hepatitis D" .
+
+<http://www.inria.org/entity/Heart%20attack> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "The death of heart muscle due to the loss of blood supply. The loss of blood supply is usually caused by a complete blockage of a coronary artery, one of the arteries that supplies blood to the heart muscle.";
+  <http://schema.org/name> "Heart attack" .
+
+<http://www.inria.org/entity/Pneumonia> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Pneumonia is an infection in one or both lungs. Bacteria, viruses, and fungi cause it. The infection causes inflammation in the air sacs in your lungs, which are called alveoli. The alveoli fill with fluid or pus, making it difficult to breathe.";
+  <http://schema.org/name> "Pneumonia" .
+
+<http://www.inria.org/entity/Arthritis> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Arthritis is the swelling and tenderness of one or more of your joints. The main symptoms of arthritis are joint pain and stiffness, which typically worsen with age. The most common types of arthritis are osteoarthritis and rheumatoid arthritis.";
+  <http://schema.org/name> "Arthritis" .
+
+<http://www.inria.org/entity/Gastroenteritis> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Gastroenteritis is an inflammation of the digestive tract, particularly the stomach, and large and small intestines. Viral and bacterial gastroenteritis are intestinal infections associated with symptoms of diarrhea , abdominal cramps, nausea , and vomiting .";
+  <http://schema.org/name> "Gastroenteritis" .
+
+<http://www.inria.org/entity/Tuberculosis> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/description> "Tuberculosis (TB) is an infectious disease usually caused by Mycobacterium tuberculosis (MTB) bacteria. Tuberculosis generally affects the lungs, but can also affect other parts of the body. Most infections show no symptoms, in which case it is known as latent tuberculosis.";
+  <http://schema.org/name> "Tuberculosis" .

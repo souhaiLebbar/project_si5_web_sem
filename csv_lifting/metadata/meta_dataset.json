@@ -1,0 +1,124 @@
+{
+    "@context": ["http://www.w3.org/ns/csvw",{"@language":"en"}],
+    "url": "../data/dataset.csv",
+    "aboutUrl": "http://www.inria.org/entity/{Disease}",
+    "tableSchema": {
+        "primaryKey" : "Disease",
+        "columns": [{
+            "name": "Disease",
+            "datatype" : "string",
+            "propertyUrl": "schema:name",
+            "dc:description": "Disease name"
+        },
+        {
+            "name":"Symptom_1",
+            "datatype" : "string",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "dc:description" : "1st symptome of the patient."
+        },
+        {
+            "name":"Symptom_2",
+            "datatype" : "string",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "dc:description" : "2nd symptome of the patient."
+        },
+        {
+            "name":"Symptom_3",
+            "datatype" : "string",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "dc:description" : "3th symptome of the patient."
+        },
+        {
+            "name":"Symptom_4",
+            "datatype" : "string",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "dc:description" : "4th symptome of the patient."
+        },
+        {
+            "name":"Symptom_5",
+            "datatype" : "string",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "dc:description" : "5th symptome of the patient."
+        },
+        {
+            "name":"Symptom_6",
+            "datatype":"string",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "dc:description" : "6th symptome of the patient."
+        },
+        {
+            "name":"Symptom_7",
+            "datatype": "string",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "dc:description" : "7th symptome of the patient."
+        },
+        {
+            "name" : "Symptom_8",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "datatype" : "string",
+            "dc:description" : "8th symptome of the patient."
+        },
+        {
+            "name" : "Symptom_9",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "datatype" : "string",
+            "dc:description" : "9th symptome of the patient."
+
+        },        
+        {
+            "name" : "Symptom_10",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "datatype" : "string",
+            "dc:description" : "10th symptome of the patient."
+        },        
+        {
+            "name" : "Symptom_11",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "datatype" : "string",
+            "dc:description" : "11th symptome of the patient."
+        },        
+        {
+            "name" : "Symptom_12",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "datatype" : "string",
+            "dc:description" : "12th symptome of the patient."
+        },        
+        {
+            "name" : "Symptom_13",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "datatype" : "string",
+            "dc:description" : "13th symptome of the patient."
+        },        
+        {
+            "name" : "Symptom_14",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "datatype" : "string",
+            "dc:description" : "14th symptome of the patient."
+        },        
+        {
+            "name" : "Symptom_15",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "datatype" : "string",
+            "dc:description" : "15th symptome of the patient."
+        },        
+        {
+            "name" : "Symptom_16",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "datatype" : "string",
+            "dc:description" : "16th symptome of the patient."
+        },        
+        {
+            "name" : "Symptom_17",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "datatype" : "string",
+            "dc:description" : "17th symptome of the patient."
+        },
+        {
+            "name": "type_disease",
+            "virtual": true,
+            "propertyUrl": "rdf:type",
+            "valueUrl": "http://www.inria.org/entity/Disease"
+        }
+        ]
+      }
+}

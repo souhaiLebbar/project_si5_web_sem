@@ -1,0 +1,2108 @@
+
+_:tablegroup__1 a <http://www.w3.org/ns/csvw#TableGroup>;
+  <http://www.w3.org/ns/csvw#table> _:table__2 .
+
+_:table__2 a <http://www.w3.org/ns/csvw#Table>;
+  <http://www.w3.org/ns/csvw#row> _:row__11 .
+
+_:row__11 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__12 .
+
+_:bnode__12 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "shivering";
+  <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__11 <http://www.w3.org/ns/csvw#rownum> 5;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=6> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__13 .
+
+_:row__13 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__14 .
+
+_:bnode__14 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "chills";
+  <http://www.inria.org/property/hasWeight> 3 .
+
+_:row__13 <http://www.w3.org/ns/csvw#rownum> 6;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=7> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__15 .
+
+_:row__15 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__16 .
+
+_:bnode__16 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "joint_pain";
+  <http://www.inria.org/property/hasWeight> 3 .
+
+_:row__15 <http://www.w3.org/ns/csvw#rownum> 7;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=8> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__17 .
+
+_:row__17 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__18 .
+
+_:bnode__18 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "stomach_pain";
+  <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__17 <http://www.w3.org/ns/csvw#rownum> 8;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=9> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__19 .
+
+_:row__19 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__20 .
+
+_:bnode__20 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "acidity";
+  <http://www.inria.org/property/hasWeight> 3 .
+
+_:row__19 <http://www.w3.org/ns/csvw#rownum> 9;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=10> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__21 .
+
+_:row__21 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__22 .
+
+_:bnode__22 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "ulcers_on_tongue";
+  <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__21 <http://www.w3.org/ns/csvw#rownum> 10;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=11> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__23 .
+
+_:row__23 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__24 .
+
+_:bnode__24 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "muscle_wasting";
+  <http://www.inria.org/property/hasWeight> 3 .
+
+_:row__23 <http://www.w3.org/ns/csvw#rownum> 11;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=12> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__25 .
+
+_:row__25 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__26 .
+
+_:bnode__26 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "vomiting";
+  <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__25 <http://www.w3.org/ns/csvw#rownum> 12;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=13> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__27 .
+
+_:row__27 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__28 .
+
+_:bnode__28 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "burning_micturition";
+  <http://www.inria.org/property/hasWeight> 6 .
+
+_:row__27 <http://www.w3.org/ns/csvw#rownum> 13;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=14> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__29 .
+
+_:row__29 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__30 .
+
+_:bnode__30 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "spotting_urination";
+  <http://www.inria.org/property/hasWeight> 6 .
+
+_:row__29 <http://www.w3.org/ns/csvw#rownum> 14;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=15> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__3 .
+
+_:row__3 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__4 .
+
+_:bnode__4 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "itching";
+  <http://www.inria.org/property/hasWeight> 1 .
+
+_:row__3 <http://www.w3.org/ns/csvw#rownum> 1;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=2> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__31 .
+
+_:row__31 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__32 .
+
+_:bnode__32 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "fatigue";
+  <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__31 <http://www.w3.org/ns/csvw#rownum> 15;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=16> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__33 .
+
+_:row__33 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__34 .
+
+_:bnode__34 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "weight_gain";
+  <http://www.inria.org/property/hasWeight> 3 .
+
+_:row__33 <http://www.w3.org/ns/csvw#rownum> 16;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=17> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__35 .
+
+_:row__35 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__36 .
+
+_:bnode__36 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "anxiety";
+  <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__35 <http://www.w3.org/ns/csvw#rownum> 17;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=18> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__37 .
+
+_:row__37 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__38 .
+
+_:bnode__38 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "cold_hands_and_feets";
+  <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__37 <http://www.w3.org/ns/csvw#rownum> 18;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=19> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__39 .
+
+_:row__39 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__40 .
+
+_:bnode__40 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "mood_swings";
+  <http://www.inria.org/property/hasWeight> 3 .
+
+_:row__39 <http://www.w3.org/ns/csvw#rownum> 19;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=20> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__41 .
+
+_:row__41 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__42 .
+
+_:bnode__42 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "weight_loss";
+  <http://www.inria.org/property/hasWeight> 3 .
+
+_:row__41 <http://www.w3.org/ns/csvw#rownum> 20;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=21> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__43 .
+
+_:row__43 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__44 .
+
+_:bnode__44 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "restlessness";
+  <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__43 <http://www.w3.org/ns/csvw#rownum> 21;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=22> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__45 .
+
+_:row__45 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__46 .
+
+_:bnode__46 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "lethargy";
+  <http://www.inria.org/property/hasWeight> 2 .
+
+_:row__45 <http://www.w3.org/ns/csvw#rownum> 22;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=23> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__47 .
+
+_:row__47 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__48 .
+
+_:bnode__48 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "patches_in_throat";
+  <http://www.inria.org/property/hasWeight> 6 .
+
+_:row__47 <http://www.w3.org/ns/csvw#rownum> 23;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=24> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__49 .
+
+_:row__49 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__50 .
+
+_:bnode__50 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "irregular_sugar_level";
+  <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__49 <http://www.w3.org/ns/csvw#rownum> 24;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=25> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__5 .
+
+_:row__5 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__6 .
+
+_:bnode__6 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "skin_rash";
+  <http://www.inria.org/property/hasWeight> 3 .
+
+_:row__5 <http://www.w3.org/ns/csvw#rownum> 2;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=3> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__51 .
+
+_:row__51 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__52 .
+
+_:bnode__52 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "cough";
+  <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__51 <http://www.w3.org/ns/csvw#rownum> 25;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=26> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__53 .
+
+_:row__53 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__54 .
+
+_:bnode__54 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "high_fever";
+  <http://www.inria.org/property/hasWeight> 7 .
+
+_:row__53 <http://www.w3.org/ns/csvw#rownum> 26;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=27> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__55 .
+
+_:row__55 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__56 .
+
+_:bnode__56 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "sunken_eyes";
+  <http://www.inria.org/property/hasWeight> 3 .
+
+_:row__55 <http://www.w3.org/ns/csvw#rownum> 27;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=28> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__57 .
+
+_:row__57 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__58 .
+
+_:bnode__58 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "breathlessness";
+  <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__57 <http://www.w3.org/ns/csvw#rownum> 28;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=29> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__59 .
+
+_:row__59 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__60 .
+
+_:bnode__60 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "sweating";
+  <http://www.inria.org/property/hasWeight> 3 .
+
+_:row__59 <http://www.w3.org/ns/csvw#rownum> 29;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=30> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__61 .
+
+_:row__61 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__62 .
+
+_:bnode__62 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "dehydration";
+  <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__61 <http://www.w3.org/ns/csvw#rownum> 30;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=31> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__63 .
+
+_:row__63 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__64 .
+
+_:bnode__64 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "indigestion";
+  <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__63 <http://www.w3.org/ns/csvw#rownum> 31;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=32> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__65 .
+
+_:row__65 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__66 .
+
+_:bnode__66 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "headache";
+  <http://www.inria.org/property/hasWeight> 3 .
+
+_:row__65 <http://www.w3.org/ns/csvw#rownum> 32;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=33> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__67 .
+
+_:row__67 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__68 .
+
+_:bnode__68 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "yellowish_skin";
+  <http://www.inria.org/property/hasWeight> 3 .
+
+_:row__67 <http://www.w3.org/ns/csvw#rownum> 33;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=34> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__69 .
+
+_:row__69 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__70 .
+
+_:bnode__70 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "dark_urine";
+  <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__69 <http://www.w3.org/ns/csvw#rownum> 34;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=35> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__7 .
+
+_:row__7 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__8 .
+
+_:bnode__8 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "nodal_skin_eruptions";
+  <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__7 <http://www.w3.org/ns/csvw#rownum> 3;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=4> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__71 .
+
+_:row__71 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__72 .
+
+_:bnode__72 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "nausea";
+  <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__71 <http://www.w3.org/ns/csvw#rownum> 35;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=36> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__73 .
+
+_:row__73 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__74 .
+
+_:bnode__74 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "loss_of_appetite";
+  <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__73 <http://www.w3.org/ns/csvw#rownum> 36;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=37> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__75 .
+
+_:row__75 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__76 .
+
+_:bnode__76 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "pain_behind_the_eyes";
+  <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__75 <http://www.w3.org/ns/csvw#rownum> 37;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=38> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__77 .
+
+_:row__77 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__78 .
+
+_:bnode__78 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "back_pain";
+  <http://www.inria.org/property/hasWeight> 3 .
+
+_:row__77 <http://www.w3.org/ns/csvw#rownum> 38;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=39> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__79 .
+
+_:row__79 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__80 .
+
+_:bnode__80 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "constipation";
+  <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__79 <http://www.w3.org/ns/csvw#rownum> 39;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=40> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__81 .
+
+_:row__81 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__82 .
+
+_:bnode__82 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "abdominal_pain";
+  <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__81 <http://www.w3.org/ns/csvw#rownum> 40;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=41> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__83 .
+
+_:row__83 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__84 .
+
+_:bnode__84 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "diarrhoea";
+  <http://www.inria.org/property/hasWeight> 6 .
+
+_:row__83 <http://www.w3.org/ns/csvw#rownum> 41;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=42> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__85 .
+
+_:row__85 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__86 .
+
+_:bnode__86 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "mild_fever";
+  <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__85 <http://www.w3.org/ns/csvw#rownum> 42;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=43> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__87 .
+
+_:row__87 <http://www.w3.org/ns/csvw#describes> _:bnode__88 .
+
+_:bnode__88 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "yellow_urine";
+  <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__87 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__88;
+  <http://www.w3.org/ns/csvw#rownum> 43;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=44> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__89 .
+
+_:row__89 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__90 .
+
+_:bnode__90 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "yellowing_of_eyes";
+  <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__89 <http://www.w3.org/ns/csvw#rownum> 44;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=45> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__9 .
+
+_:row__9 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__10 .
+
+_:bnode__10 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "continuous_sneezing";
+  <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__9 <http://www.w3.org/ns/csvw#rownum> 4;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=5> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__91 .
+
+_:row__91 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__92 .
+
+_:bnode__92 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "acute_liver_failure";
+  <http://www.inria.org/property/hasWeight> 6 .
+
+_:row__91 <http://www.w3.org/ns/csvw#rownum> 45;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=46> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__93 .
+
+_:row__93 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__94 .
+
+_:bnode__94 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "fluid_overload";
+  <http://www.inria.org/property/hasWeight> 6 .
+
+_:row__93 <http://www.w3.org/ns/csvw#rownum> 46;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=47> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__95 .
+
+_:row__95 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__96 .
+
+_:bnode__96 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "swelling_of_stomach";
+  <http://www.inria.org/property/hasWeight> 7 .
+
+_:row__95 <http://www.w3.org/ns/csvw#rownum> 47;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=48> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__97 .
+
+_:row__97 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__98 .
+
+_:bnode__98 a <http://www.inria.org/entity/Syndrom>;
+  <http://schema.org/name> "swelled_lymph_nodes";
+  <http://www.inria.org/property/hasWeight> 6 .
+
+_:row__97 <http://www.w3.org/ns/csvw#rownum> 48;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=49> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__99 .
+
+_:row__99 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> _:bnode__100 .
+
+_:bnode__100 <http://www.inria.org/property/hasWeight> 6;
+  <http://schema.org/name> "malaise";
+  a <http://www.inria.org/entity/Syndrom> .
+
+_:row__99 <http://www.w3.org/ns/csvw#describes> _:bnode__100;
+  <http://www.w3.org/ns/csvw#rownum> 49;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=50> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__101 .
+
+_:row__101 <http://www.w3.org/ns/csvw#describes> _:bnode__102 .
+
+_:bnode__102 <http://schema.org/name> "blurred_and_distorted_vision" .
+
+_:row__101 <http://www.w3.org/ns/csvw#describes> _:bnode__102 .
+
+_:bnode__102 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__101 <http://www.w3.org/ns/csvw#describes> _:bnode__102 .
+
+_:bnode__102 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__101 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 50;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=51> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__103 .
+
+_:row__103 <http://www.w3.org/ns/csvw#describes> _:bnode__104 .
+
+_:bnode__104 <http://schema.org/name> "phlegm" .
+
+_:row__103 <http://www.w3.org/ns/csvw#describes> _:bnode__104 .
+
+_:bnode__104 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__103 <http://www.w3.org/ns/csvw#describes> _:bnode__104 .
+
+_:bnode__104 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__103 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 51;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=52> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__105 .
+
+_:row__105 <http://www.w3.org/ns/csvw#describes> _:bnode__106 .
+
+_:bnode__106 <http://schema.org/name> "throat_irritation" .
+
+_:row__105 <http://www.w3.org/ns/csvw#describes> _:bnode__106 .
+
+_:bnode__106 <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__105 <http://www.w3.org/ns/csvw#describes> _:bnode__106 .
+
+_:bnode__106 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__105 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 52;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=53> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__107 .
+
+_:row__107 <http://www.w3.org/ns/csvw#describes> _:bnode__108 .
+
+_:bnode__108 <http://schema.org/name> "redness_of_eyes" .
+
+_:row__107 <http://www.w3.org/ns/csvw#describes> _:bnode__108 .
+
+_:bnode__108 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__107 <http://www.w3.org/ns/csvw#describes> _:bnode__108 .
+
+_:bnode__108 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__107 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 53;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=54> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__109 .
+
+_:row__109 <http://www.w3.org/ns/csvw#describes> _:bnode__110 .
+
+_:bnode__110 <http://schema.org/name> "sinus_pressure" .
+
+_:row__109 <http://www.w3.org/ns/csvw#describes> _:bnode__110 .
+
+_:bnode__110 <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__109 <http://www.w3.org/ns/csvw#describes> _:bnode__110 .
+
+_:bnode__110 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__109 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 54;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=55> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__111 .
+
+_:row__111 <http://www.w3.org/ns/csvw#describes> _:bnode__112 .
+
+_:bnode__112 <http://schema.org/name> "runny_nose" .
+
+_:row__111 <http://www.w3.org/ns/csvw#describes> _:bnode__112 .
+
+_:bnode__112 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__111 <http://www.w3.org/ns/csvw#describes> _:bnode__112 .
+
+_:bnode__112 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__111 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 55;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=56> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__113 .
+
+_:row__113 <http://www.w3.org/ns/csvw#describes> _:bnode__114 .
+
+_:bnode__114 <http://schema.org/name> "congestion" .
+
+_:row__113 <http://www.w3.org/ns/csvw#describes> _:bnode__114 .
+
+_:bnode__114 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__113 <http://www.w3.org/ns/csvw#describes> _:bnode__114 .
+
+_:bnode__114 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__113 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 56;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=57> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__115 .
+
+_:row__115 <http://www.w3.org/ns/csvw#describes> _:bnode__116 .
+
+_:bnode__116 <http://schema.org/name> "chest_pain" .
+
+_:row__115 <http://www.w3.org/ns/csvw#describes> _:bnode__116 .
+
+_:bnode__116 <http://www.inria.org/property/hasWeight> 7 .
+
+_:row__115 <http://www.w3.org/ns/csvw#describes> _:bnode__116 .
+
+_:bnode__116 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__115 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 57;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=58> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__117 .
+
+_:row__117 <http://www.w3.org/ns/csvw#describes> _:bnode__118 .
+
+_:bnode__118 <http://schema.org/name> "weakness_in_limbs" .
+
+_:row__117 <http://www.w3.org/ns/csvw#describes> _:bnode__118 .
+
+_:bnode__118 <http://www.inria.org/property/hasWeight> 7 .
+
+_:row__117 <http://www.w3.org/ns/csvw#describes> _:bnode__118 .
+
+_:bnode__118 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__117 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 58;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=59> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__119 .
+
+_:row__119 <http://www.w3.org/ns/csvw#describes> _:bnode__120 .
+
+_:bnode__120 <http://schema.org/name> "fast_heart_rate" .
+
+_:row__119 <http://www.w3.org/ns/csvw#describes> _:bnode__120 .
+
+_:bnode__120 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__119 <http://www.w3.org/ns/csvw#describes> _:bnode__120 .
+
+_:bnode__120 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__119 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 59;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=60> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__121 .
+
+_:row__121 <http://www.w3.org/ns/csvw#describes> _:bnode__122 .
+
+_:bnode__122 <http://schema.org/name> "pain_during_bowel_movements" .
+
+_:row__121 <http://www.w3.org/ns/csvw#describes> _:bnode__122 .
+
+_:bnode__122 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__121 <http://www.w3.org/ns/csvw#describes> _:bnode__122 .
+
+_:bnode__122 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__121 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 60;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=61> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__123 .
+
+_:row__123 <http://www.w3.org/ns/csvw#describes> _:bnode__124 .
+
+_:bnode__124 <http://schema.org/name> "pain_in_anal_region" .
+
+_:row__123 <http://www.w3.org/ns/csvw#describes> _:bnode__124 .
+
+_:bnode__124 <http://www.inria.org/property/hasWeight> 6 .
+
+_:row__123 <http://www.w3.org/ns/csvw#describes> _:bnode__124 .
+
+_:bnode__124 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__123 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 61;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=62> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__125 .
+
+_:row__125 <http://www.w3.org/ns/csvw#describes> _:bnode__126 .
+
+_:bnode__126 <http://schema.org/name> "bloody_stool" .
+
+_:row__125 <http://www.w3.org/ns/csvw#describes> _:bnode__126 .
+
+_:bnode__126 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__125 <http://www.w3.org/ns/csvw#describes> _:bnode__126 .
+
+_:bnode__126 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__125 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 62;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=63> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__127 .
+
+_:row__127 <http://www.w3.org/ns/csvw#describes> _:bnode__128 .
+
+_:bnode__128 <http://schema.org/name> "irritation_in_anus" .
+
+_:row__127 <http://www.w3.org/ns/csvw#describes> _:bnode__128 .
+
+_:bnode__128 <http://www.inria.org/property/hasWeight> 6 .
+
+_:row__127 <http://www.w3.org/ns/csvw#describes> _:bnode__128 .
+
+_:bnode__128 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__127 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 63;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=64> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__129 .
+
+_:row__129 <http://www.w3.org/ns/csvw#describes> _:bnode__130 .
+
+_:bnode__130 <http://schema.org/name> "neck_pain" .
+
+_:row__129 <http://www.w3.org/ns/csvw#describes> _:bnode__130 .
+
+_:bnode__130 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__129 <http://www.w3.org/ns/csvw#describes> _:bnode__130 .
+
+_:bnode__130 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__129 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 64;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=65> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__131 .
+
+_:row__131 <http://www.w3.org/ns/csvw#describes> _:bnode__132 .
+
+_:bnode__132 <http://schema.org/name> "dizziness" .
+
+_:row__131 <http://www.w3.org/ns/csvw#describes> _:bnode__132 .
+
+_:bnode__132 <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__131 <http://www.w3.org/ns/csvw#describes> _:bnode__132 .
+
+_:bnode__132 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__131 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 65;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=66> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__133 .
+
+_:row__133 <http://www.w3.org/ns/csvw#describes> _:bnode__134 .
+
+_:bnode__134 <http://schema.org/name> "cramps" .
+
+_:row__133 <http://www.w3.org/ns/csvw#describes> _:bnode__134 .
+
+_:bnode__134 <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__133 <http://www.w3.org/ns/csvw#describes> _:bnode__134 .
+
+_:bnode__134 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__133 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 66;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=67> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__135 .
+
+_:row__135 <http://www.w3.org/ns/csvw#describes> _:bnode__136 .
+
+_:bnode__136 <http://schema.org/name> "bruising" .
+
+_:row__135 <http://www.w3.org/ns/csvw#describes> _:bnode__136 .
+
+_:bnode__136 <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__135 <http://www.w3.org/ns/csvw#describes> _:bnode__136 .
+
+_:bnode__136 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__135 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 67;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=68> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__137 .
+
+_:row__137 <http://www.w3.org/ns/csvw#describes> _:bnode__138 .
+
+_:bnode__138 <http://schema.org/name> "obesity" .
+
+_:row__137 <http://www.w3.org/ns/csvw#describes> _:bnode__138 .
+
+_:bnode__138 <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__137 <http://www.w3.org/ns/csvw#describes> _:bnode__138 .
+
+_:bnode__138 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__137 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 68;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=69> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__139 .
+
+_:row__139 <http://www.w3.org/ns/csvw#describes> _:bnode__140 .
+
+_:bnode__140 <http://schema.org/name> "swollen_legs" .
+
+_:row__139 <http://www.w3.org/ns/csvw#describes> _:bnode__140 .
+
+_:bnode__140 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__139 <http://www.w3.org/ns/csvw#describes> _:bnode__140 .
+
+_:bnode__140 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__139 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 69;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=70> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__141 .
+
+_:row__141 <http://www.w3.org/ns/csvw#describes> _:bnode__142 .
+
+_:bnode__142 <http://schema.org/name> "swollen_blood_vessels" .
+
+_:row__141 <http://www.w3.org/ns/csvw#describes> _:bnode__142 .
+
+_:bnode__142 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__141 <http://www.w3.org/ns/csvw#describes> _:bnode__142 .
+
+_:bnode__142 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__141 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 70;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=71> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__143 .
+
+_:row__143 <http://www.w3.org/ns/csvw#describes> _:bnode__144 .
+
+_:bnode__144 <http://schema.org/name> "puffy_face_and_eyes" .
+
+_:row__143 <http://www.w3.org/ns/csvw#describes> _:bnode__144 .
+
+_:bnode__144 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__143 <http://www.w3.org/ns/csvw#describes> _:bnode__144 .
+
+_:bnode__144 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__143 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 71;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=72> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__145 .
+
+_:row__145 <http://www.w3.org/ns/csvw#describes> _:bnode__146 .
+
+_:bnode__146 <http://schema.org/name> "enlarged_thyroid" .
+
+_:row__145 <http://www.w3.org/ns/csvw#describes> _:bnode__146 .
+
+_:bnode__146 <http://www.inria.org/property/hasWeight> 6 .
+
+_:row__145 <http://www.w3.org/ns/csvw#describes> _:bnode__146 .
+
+_:bnode__146 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__145 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 72;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=73> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__147 .
+
+_:row__147 <http://www.w3.org/ns/csvw#describes> _:bnode__148 .
+
+_:bnode__148 <http://schema.org/name> "brittle_nails" .
+
+_:row__147 <http://www.w3.org/ns/csvw#describes> _:bnode__148 .
+
+_:bnode__148 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__147 <http://www.w3.org/ns/csvw#describes> _:bnode__148 .
+
+_:bnode__148 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__147 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 73;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=74> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__149 .
+
+_:row__149 <http://www.w3.org/ns/csvw#describes> _:bnode__150 .
+
+_:bnode__150 <http://schema.org/name> "swollen_extremeties" .
+
+_:row__149 <http://www.w3.org/ns/csvw#describes> _:bnode__150 .
+
+_:bnode__150 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__149 <http://www.w3.org/ns/csvw#describes> _:bnode__150 .
+
+_:bnode__150 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__149 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 74;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=75> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__151 .
+
+_:row__151 <http://www.w3.org/ns/csvw#describes> _:bnode__152 .
+
+_:bnode__152 <http://schema.org/name> "excessive_hunger" .
+
+_:row__151 <http://www.w3.org/ns/csvw#describes> _:bnode__152 .
+
+_:bnode__152 <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__151 <http://www.w3.org/ns/csvw#describes> _:bnode__152 .
+
+_:bnode__152 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__151 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 75;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=76> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__153 .
+
+_:row__153 <http://www.w3.org/ns/csvw#describes> _:bnode__154 .
+
+_:bnode__154 <http://schema.org/name> "extra_marital_contacts" .
+
+_:row__153 <http://www.w3.org/ns/csvw#describes> _:bnode__154 .
+
+_:bnode__154 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__153 <http://www.w3.org/ns/csvw#describes> _:bnode__154 .
+
+_:bnode__154 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__153 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 76;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=77> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__155 .
+
+_:row__155 <http://www.w3.org/ns/csvw#describes> _:bnode__156 .
+
+_:bnode__156 <http://schema.org/name> "drying_and_tingling_lips" .
+
+_:row__155 <http://www.w3.org/ns/csvw#describes> _:bnode__156 .
+
+_:bnode__156 <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__155 <http://www.w3.org/ns/csvw#describes> _:bnode__156 .
+
+_:bnode__156 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__155 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 77;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=78> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__157 .
+
+_:row__157 <http://www.w3.org/ns/csvw#describes> _:bnode__158 .
+
+_:bnode__158 <http://schema.org/name> "slurred_speech" .
+
+_:row__157 <http://www.w3.org/ns/csvw#describes> _:bnode__158 .
+
+_:bnode__158 <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__157 <http://www.w3.org/ns/csvw#describes> _:bnode__158 .
+
+_:bnode__158 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__157 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 78;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=79> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__159 .
+
+_:row__159 <http://www.w3.org/ns/csvw#describes> _:bnode__160 .
+
+_:bnode__160 <http://schema.org/name> "knee_pain" .
+
+_:row__159 <http://www.w3.org/ns/csvw#describes> _:bnode__160 .
+
+_:bnode__160 <http://www.inria.org/property/hasWeight> 3 .
+
+_:row__159 <http://www.w3.org/ns/csvw#describes> _:bnode__160 .
+
+_:bnode__160 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__159 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 79;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=80> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__161 .
+
+_:row__161 <http://www.w3.org/ns/csvw#describes> _:bnode__162 .
+
+_:bnode__162 <http://schema.org/name> "hip_joint_pain" .
+
+_:row__161 <http://www.w3.org/ns/csvw#describes> _:bnode__162 .
+
+_:bnode__162 <http://www.inria.org/property/hasWeight> 2 .
+
+_:row__161 <http://www.w3.org/ns/csvw#describes> _:bnode__162 .
+
+_:bnode__162 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__161 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 80;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=81> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__163 .
+
+_:row__163 <http://www.w3.org/ns/csvw#describes> _:bnode__164 .
+
+_:bnode__164 <http://schema.org/name> "muscle_weakness" .
+
+_:row__163 <http://www.w3.org/ns/csvw#describes> _:bnode__164 .
+
+_:bnode__164 <http://www.inria.org/property/hasWeight> 2 .
+
+_:row__163 <http://www.w3.org/ns/csvw#describes> _:bnode__164 .
+
+_:bnode__164 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__163 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 81;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=82> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__165 .
+
+_:row__165 <http://www.w3.org/ns/csvw#describes> _:bnode__166 .
+
+_:bnode__166 <http://schema.org/name> "stiff_neck" .
+
+_:row__165 <http://www.w3.org/ns/csvw#describes> _:bnode__166 .
+
+_:bnode__166 <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__165 <http://www.w3.org/ns/csvw#describes> _:bnode__166 .
+
+_:bnode__166 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__165 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 82;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=83> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__167 .
+
+_:row__167 <http://www.w3.org/ns/csvw#describes> _:bnode__168 .
+
+_:bnode__168 <http://schema.org/name> "swelling_joints" .
+
+_:row__167 <http://www.w3.org/ns/csvw#describes> _:bnode__168 .
+
+_:bnode__168 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__167 <http://www.w3.org/ns/csvw#describes> _:bnode__168 .
+
+_:bnode__168 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__167 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 83;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=84> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__169 .
+
+_:row__169 <http://www.w3.org/ns/csvw#describes> _:bnode__170 .
+
+_:bnode__170 <http://schema.org/name> "movement_stiffness" .
+
+_:row__169 <http://www.w3.org/ns/csvw#describes> _:bnode__170 .
+
+_:bnode__170 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__169 <http://www.w3.org/ns/csvw#describes> _:bnode__170 .
+
+_:bnode__170 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__169 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 84;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=85> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__171 .
+
+_:row__171 <http://www.w3.org/ns/csvw#describes> _:bnode__172 .
+
+_:bnode__172 <http://schema.org/name> "spinning_movements" .
+
+_:row__171 <http://www.w3.org/ns/csvw#describes> _:bnode__172 .
+
+_:bnode__172 <http://www.inria.org/property/hasWeight> 6 .
+
+_:row__171 <http://www.w3.org/ns/csvw#describes> _:bnode__172 .
+
+_:bnode__172 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__171 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 85;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=86> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__173 .
+
+_:row__173 <http://www.w3.org/ns/csvw#describes> _:bnode__174 .
+
+_:bnode__174 <http://schema.org/name> "loss_of_balance" .
+
+_:row__173 <http://www.w3.org/ns/csvw#describes> _:bnode__174 .
+
+_:bnode__174 <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__173 <http://www.w3.org/ns/csvw#describes> _:bnode__174 .
+
+_:bnode__174 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__173 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 86;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=87> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__175 .
+
+_:row__175 <http://www.w3.org/ns/csvw#describes> _:bnode__176 .
+
+_:bnode__176 <http://schema.org/name> "unsteadiness" .
+
+_:row__175 <http://www.w3.org/ns/csvw#describes> _:bnode__176 .
+
+_:bnode__176 <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__175 <http://www.w3.org/ns/csvw#describes> _:bnode__176 .
+
+_:bnode__176 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__175 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 87;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=88> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__177 .
+
+_:row__177 <http://www.w3.org/ns/csvw#describes> _:bnode__178 .
+
+_:bnode__178 <http://schema.org/name> "weakness_of_one_body_side" .
+
+_:row__177 <http://www.w3.org/ns/csvw#describes> _:bnode__178 .
+
+_:bnode__178 <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__177 <http://www.w3.org/ns/csvw#describes> _:bnode__178 .
+
+_:bnode__178 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__177 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 88;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=89> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__179 .
+
+_:row__179 <http://www.w3.org/ns/csvw#describes> _:bnode__180 .
+
+_:bnode__180 <http://schema.org/name> "loss_of_smell" .
+
+_:row__179 <http://www.w3.org/ns/csvw#describes> _:bnode__180 .
+
+_:bnode__180 <http://www.inria.org/property/hasWeight> 3 .
+
+_:row__179 <http://www.w3.org/ns/csvw#describes> _:bnode__180 .
+
+_:bnode__180 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__179 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 89;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=90> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__181 .
+
+_:row__181 <http://www.w3.org/ns/csvw#describes> _:bnode__182 .
+
+_:bnode__182 <http://schema.org/name> "bladder_discomfort" .
+
+_:row__181 <http://www.w3.org/ns/csvw#describes> _:bnode__182 .
+
+_:bnode__182 <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__181 <http://www.w3.org/ns/csvw#describes> _:bnode__182 .
+
+_:bnode__182 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__181 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 90;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=91> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__183 .
+
+_:row__183 <http://www.w3.org/ns/csvw#describes> _:bnode__184 .
+
+_:bnode__184 <http://schema.org/name> "foul_smell_ofurine" .
+
+_:row__183 <http://www.w3.org/ns/csvw#describes> _:bnode__184 .
+
+_:bnode__184 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__183 <http://www.w3.org/ns/csvw#describes> _:bnode__184 .
+
+_:bnode__184 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__183 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 91;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=92> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__185 .
+
+_:row__185 <http://www.w3.org/ns/csvw#describes> _:bnode__186 .
+
+_:bnode__186 <http://schema.org/name> "continuous_feel_of_urine" .
+
+_:row__185 <http://www.w3.org/ns/csvw#describes> _:bnode__186 .
+
+_:bnode__186 <http://www.inria.org/property/hasWeight> 6 .
+
+_:row__185 <http://www.w3.org/ns/csvw#describes> _:bnode__186 .
+
+_:bnode__186 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__185 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 92;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=93> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__187 .
+
+_:row__187 <http://www.w3.org/ns/csvw#describes> _:bnode__188 .
+
+_:bnode__188 <http://schema.org/name> "passage_of_gases" .
+
+_:row__187 <http://www.w3.org/ns/csvw#describes> _:bnode__188 .
+
+_:bnode__188 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__187 <http://www.w3.org/ns/csvw#describes> _:bnode__188 .
+
+_:bnode__188 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__187 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 93;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=94> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__189 .
+
+_:row__189 <http://www.w3.org/ns/csvw#describes> _:bnode__190 .
+
+_:bnode__190 <http://schema.org/name> "internal_itching" .
+
+_:row__189 <http://www.w3.org/ns/csvw#describes> _:bnode__190 .
+
+_:bnode__190 <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__189 <http://www.w3.org/ns/csvw#describes> _:bnode__190 .
+
+_:bnode__190 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__189 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 94;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=95> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__191 .
+
+_:row__191 <http://www.w3.org/ns/csvw#describes> _:bnode__192 .
+
+_:bnode__192 <http://schema.org/name> "toxic_look_(typhos)" .
+
+_:row__191 <http://www.w3.org/ns/csvw#describes> _:bnode__192 .
+
+_:bnode__192 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__191 <http://www.w3.org/ns/csvw#describes> _:bnode__192 .
+
+_:bnode__192 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__191 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 95;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=96> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__193 .
+
+_:row__193 <http://www.w3.org/ns/csvw#describes> _:bnode__194 .
+
+_:bnode__194 <http://schema.org/name> "depression" .
+
+_:row__193 <http://www.w3.org/ns/csvw#describes> _:bnode__194 .
+
+_:bnode__194 <http://www.inria.org/property/hasWeight> 3 .
+
+_:row__193 <http://www.w3.org/ns/csvw#describes> _:bnode__194 .
+
+_:bnode__194 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__193 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 96;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=97> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__195 .
+
+_:row__195 <http://www.w3.org/ns/csvw#describes> _:bnode__196 .
+
+_:bnode__196 <http://schema.org/name> "irritability" .
+
+_:row__195 <http://www.w3.org/ns/csvw#describes> _:bnode__196 .
+
+_:bnode__196 <http://www.inria.org/property/hasWeight> 2 .
+
+_:row__195 <http://www.w3.org/ns/csvw#describes> _:bnode__196 .
+
+_:bnode__196 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__195 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 97;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=98> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__197 .
+
+_:row__197 <http://www.w3.org/ns/csvw#describes> _:bnode__198 .
+
+_:bnode__198 <http://schema.org/name> "muscle_pain" .
+
+_:row__197 <http://www.w3.org/ns/csvw#describes> _:bnode__198 .
+
+_:bnode__198 <http://www.inria.org/property/hasWeight> 2 .
+
+_:row__197 <http://www.w3.org/ns/csvw#describes> _:bnode__198 .
+
+_:bnode__198 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__197 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 98;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=99> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__199 .
+
+_:row__199 <http://www.w3.org/ns/csvw#describes> _:bnode__200 .
+
+_:bnode__200 <http://schema.org/name> "altered_sensorium" .
+
+_:row__199 <http://www.w3.org/ns/csvw#describes> _:bnode__200 .
+
+_:bnode__200 <http://www.inria.org/property/hasWeight> 2 .
+
+_:row__199 <http://www.w3.org/ns/csvw#describes> _:bnode__200 .
+
+_:bnode__200 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__199 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 99;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=100> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__201 .
+
+_:row__201 <http://www.w3.org/ns/csvw#describes> _:bnode__202 .
+
+_:bnode__202 <http://schema.org/name> "red_spots_over_body" .
+
+_:row__201 <http://www.w3.org/ns/csvw#describes> _:bnode__202 .
+
+_:bnode__202 <http://www.inria.org/property/hasWeight> 3 .
+
+_:row__201 <http://www.w3.org/ns/csvw#describes> _:bnode__202 .
+
+_:bnode__202 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__201 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 100;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=101> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__203 .
+
+_:row__203 <http://www.w3.org/ns/csvw#describes> _:bnode__204 .
+
+_:bnode__204 <http://schema.org/name> "belly_pain" .
+
+_:row__203 <http://www.w3.org/ns/csvw#describes> _:bnode__204 .
+
+_:bnode__204 <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__203 <http://www.w3.org/ns/csvw#describes> _:bnode__204 .
+
+_:bnode__204 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__203 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 101;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=102> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__205 .
+
+_:row__205 <http://www.w3.org/ns/csvw#describes> _:bnode__206 .
+
+_:bnode__206 <http://schema.org/name> "abnormal_menstruation" .
+
+_:row__205 <http://www.w3.org/ns/csvw#describes> _:bnode__206 .
+
+_:bnode__206 <http://www.inria.org/property/hasWeight> 6 .
+
+_:row__205 <http://www.w3.org/ns/csvw#describes> _:bnode__206 .
+
+_:bnode__206 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__205 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 102;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=103> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__207 .
+
+_:row__207 <http://www.w3.org/ns/csvw#describes> _:bnode__208 .
+
+_:bnode__208 <http://schema.org/name> "dischromic_patches" .
+
+_:row__207 <http://www.w3.org/ns/csvw#describes> _:bnode__208 .
+
+_:bnode__208 <http://www.inria.org/property/hasWeight> 6 .
+
+_:row__207 <http://www.w3.org/ns/csvw#describes> _:bnode__208 .
+
+_:bnode__208 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__207 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 103;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=104> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__209 .
+
+_:row__209 <http://www.w3.org/ns/csvw#describes> _:bnode__210 .
+
+_:bnode__210 <http://schema.org/name> "watering_from_eyes" .
+
+_:row__209 <http://www.w3.org/ns/csvw#describes> _:bnode__210 .
+
+_:bnode__210 <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__209 <http://www.w3.org/ns/csvw#describes> _:bnode__210 .
+
+_:bnode__210 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__209 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 104;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=105> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__211 .
+
+_:row__211 <http://www.w3.org/ns/csvw#describes> _:bnode__212 .
+
+_:bnode__212 <http://schema.org/name> "increased_appetite" .
+
+_:row__211 <http://www.w3.org/ns/csvw#describes> _:bnode__212 .
+
+_:bnode__212 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__211 <http://www.w3.org/ns/csvw#describes> _:bnode__212 .
+
+_:bnode__212 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__211 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 105;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=106> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__213 .
+
+_:row__213 <http://www.w3.org/ns/csvw#describes> _:bnode__214 .
+
+_:bnode__214 <http://schema.org/name> "polyuria" .
+
+_:row__213 <http://www.w3.org/ns/csvw#describes> _:bnode__214 .
+
+_:bnode__214 <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__213 <http://www.w3.org/ns/csvw#describes> _:bnode__214 .
+
+_:bnode__214 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__213 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 106;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=107> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__215 .
+
+_:row__215 <http://www.w3.org/ns/csvw#describes> _:bnode__216 .
+
+_:bnode__216 <http://schema.org/name> "family_history" .
+
+_:row__215 <http://www.w3.org/ns/csvw#describes> _:bnode__216 .
+
+_:bnode__216 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__215 <http://www.w3.org/ns/csvw#describes> _:bnode__216 .
+
+_:bnode__216 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__215 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 107;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=108> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__217 .
+
+_:row__217 <http://www.w3.org/ns/csvw#describes> _:bnode__218 .
+
+_:bnode__218 <http://schema.org/name> "mucoid_sputum" .
+
+_:row__217 <http://www.w3.org/ns/csvw#describes> _:bnode__218 .
+
+_:bnode__218 <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__217 <http://www.w3.org/ns/csvw#describes> _:bnode__218 .
+
+_:bnode__218 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__217 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 108;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=109> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__219 .
+
+_:row__219 <http://www.w3.org/ns/csvw#describes> _:bnode__220 .
+
+_:bnode__220 <http://schema.org/name> "rusty_sputum" .
+
+_:row__219 <http://www.w3.org/ns/csvw#describes> _:bnode__220 .
+
+_:bnode__220 <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__219 <http://www.w3.org/ns/csvw#describes> _:bnode__220 .
+
+_:bnode__220 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__219 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 109;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=110> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__221 .
+
+_:row__221 <http://www.w3.org/ns/csvw#describes> _:bnode__222 .
+
+_:bnode__222 <http://schema.org/name> "lack_of_concentration" .
+
+_:row__221 <http://www.w3.org/ns/csvw#describes> _:bnode__222 .
+
+_:bnode__222 <http://www.inria.org/property/hasWeight> 3 .
+
+_:row__221 <http://www.w3.org/ns/csvw#describes> _:bnode__222 .
+
+_:bnode__222 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__221 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 110;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=111> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__223 .
+
+_:row__223 <http://www.w3.org/ns/csvw#describes> _:bnode__224 .
+
+_:bnode__224 <http://schema.org/name> "visual_disturbances" .
+
+_:row__223 <http://www.w3.org/ns/csvw#describes> _:bnode__224 .
+
+_:bnode__224 <http://www.inria.org/property/hasWeight> 3 .
+
+_:row__223 <http://www.w3.org/ns/csvw#describes> _:bnode__224 .
+
+_:bnode__224 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__223 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 111;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=112> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__225 .
+
+_:row__225 <http://www.w3.org/ns/csvw#describes> _:bnode__226 .
+
+_:bnode__226 <http://schema.org/name> "receiving_blood_transfusion" .
+
+_:row__225 <http://www.w3.org/ns/csvw#describes> _:bnode__226 .
+
+_:bnode__226 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__225 <http://www.w3.org/ns/csvw#describes> _:bnode__226 .
+
+_:bnode__226 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__225 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 112;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=113> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__227 .
+
+_:row__227 <http://www.w3.org/ns/csvw#describes> _:bnode__228 .
+
+_:bnode__228 <http://schema.org/name> "receiving_unsterile_injections" .
+
+_:row__227 <http://www.w3.org/ns/csvw#describes> _:bnode__228 .
+
+_:bnode__228 <http://www.inria.org/property/hasWeight> 2 .
+
+_:row__227 <http://www.w3.org/ns/csvw#describes> _:bnode__228 .
+
+_:bnode__228 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__227 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 113;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=114> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__229 .
+
+_:row__229 <http://www.w3.org/ns/csvw#describes> _:bnode__230 .
+
+_:bnode__230 <http://schema.org/name> "coma" .
+
+_:row__229 <http://www.w3.org/ns/csvw#describes> _:bnode__230 .
+
+_:bnode__230 <http://www.inria.org/property/hasWeight> 7 .
+
+_:row__229 <http://www.w3.org/ns/csvw#describes> _:bnode__230 .
+
+_:bnode__230 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__229 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 114;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=115> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__231 .
+
+_:row__231 <http://www.w3.org/ns/csvw#describes> _:bnode__232 .
+
+_:bnode__232 <http://schema.org/name> "stomach_bleeding" .
+
+_:row__231 <http://www.w3.org/ns/csvw#describes> _:bnode__232 .
+
+_:bnode__232 <http://www.inria.org/property/hasWeight> 6 .
+
+_:row__231 <http://www.w3.org/ns/csvw#describes> _:bnode__232 .
+
+_:bnode__232 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__231 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 115;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=116> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__233 .
+
+_:row__233 <http://www.w3.org/ns/csvw#describes> _:bnode__234 .
+
+_:bnode__234 <http://schema.org/name> "distention_of_abdomen" .
+
+_:row__233 <http://www.w3.org/ns/csvw#describes> _:bnode__234 .
+
+_:bnode__234 <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__233 <http://www.w3.org/ns/csvw#describes> _:bnode__234 .
+
+_:bnode__234 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__233 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 116;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=117> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__235 .
+
+_:row__235 <http://www.w3.org/ns/csvw#describes> _:bnode__236 .
+
+_:bnode__236 <http://schema.org/name> "history_of_alcohol_consumption" .
+
+_:row__235 <http://www.w3.org/ns/csvw#describes> _:bnode__236 .
+
+_:bnode__236 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__235 <http://www.w3.org/ns/csvw#describes> _:bnode__236 .
+
+_:bnode__236 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__235 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 117;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=118> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__237 .
+
+_:row__237 <http://www.w3.org/ns/csvw#describes> _:bnode__238 .
+
+_:bnode__238 <http://schema.org/name> "fluid_overload" .
+
+_:row__237 <http://www.w3.org/ns/csvw#describes> _:bnode__238 .
+
+_:bnode__238 <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__237 <http://www.w3.org/ns/csvw#describes> _:bnode__238 .
+
+_:bnode__238 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__237 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 118;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=119> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__239 .
+
+_:row__239 <http://www.w3.org/ns/csvw#describes> _:bnode__240 .
+
+_:bnode__240 <http://schema.org/name> "blood_in_sputum" .
+
+_:row__239 <http://www.w3.org/ns/csvw#describes> _:bnode__240 .
+
+_:bnode__240 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__239 <http://www.w3.org/ns/csvw#describes> _:bnode__240 .
+
+_:bnode__240 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__239 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 119;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=120> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__241 .
+
+_:row__241 <http://www.w3.org/ns/csvw#describes> _:bnode__242 .
+
+_:bnode__242 <http://schema.org/name> "prominent_veins_on_calf" .
+
+_:row__241 <http://www.w3.org/ns/csvw#describes> _:bnode__242 .
+
+_:bnode__242 <http://www.inria.org/property/hasWeight> 6 .
+
+_:row__241 <http://www.w3.org/ns/csvw#describes> _:bnode__242 .
+
+_:bnode__242 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__241 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 120;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=121> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__243 .
+
+_:row__243 <http://www.w3.org/ns/csvw#describes> _:bnode__244 .
+
+_:bnode__244 <http://schema.org/name> "palpitations" .
+
+_:row__243 <http://www.w3.org/ns/csvw#describes> _:bnode__244 .
+
+_:bnode__244 <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__243 <http://www.w3.org/ns/csvw#describes> _:bnode__244 .
+
+_:bnode__244 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__243 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 121;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=122> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__245 .
+
+_:row__245 <http://www.w3.org/ns/csvw#describes> _:bnode__246 .
+
+_:bnode__246 <http://schema.org/name> "painful_walking" .
+
+_:row__245 <http://www.w3.org/ns/csvw#describes> _:bnode__246 .
+
+_:bnode__246 <http://www.inria.org/property/hasWeight> 2 .
+
+_:row__245 <http://www.w3.org/ns/csvw#describes> _:bnode__246 .
+
+_:bnode__246 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__245 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 122;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=123> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__247 .
+
+_:row__247 <http://www.w3.org/ns/csvw#describes> _:bnode__248 .
+
+_:bnode__248 <http://schema.org/name> "pus_filled_pimples" .
+
+_:row__247 <http://www.w3.org/ns/csvw#describes> _:bnode__248 .
+
+_:bnode__248 <http://www.inria.org/property/hasWeight> 2 .
+
+_:row__247 <http://www.w3.org/ns/csvw#describes> _:bnode__248 .
+
+_:bnode__248 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__247 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 123;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=124> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__249 .
+
+_:row__249 <http://www.w3.org/ns/csvw#describes> _:bnode__250 .
+
+_:bnode__250 <http://schema.org/name> "blackheads" .
+
+_:row__249 <http://www.w3.org/ns/csvw#describes> _:bnode__250 .
+
+_:bnode__250 <http://www.inria.org/property/hasWeight> 2 .
+
+_:row__249 <http://www.w3.org/ns/csvw#describes> _:bnode__250 .
+
+_:bnode__250 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__249 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 124;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=125> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__251 .
+
+_:row__251 <http://www.w3.org/ns/csvw#describes> _:bnode__252 .
+
+_:bnode__252 <http://schema.org/name> "scurring" .
+
+_:row__251 <http://www.w3.org/ns/csvw#describes> _:bnode__252 .
+
+_:bnode__252 <http://www.inria.org/property/hasWeight> 2 .
+
+_:row__251 <http://www.w3.org/ns/csvw#describes> _:bnode__252 .
+
+_:bnode__252 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__251 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 125;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=126> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__253 .
+
+_:row__253 <http://www.w3.org/ns/csvw#describes> _:bnode__254 .
+
+_:bnode__254 <http://schema.org/name> "skin_peeling" .
+
+_:row__253 <http://www.w3.org/ns/csvw#describes> _:bnode__254 .
+
+_:bnode__254 <http://www.inria.org/property/hasWeight> 3 .
+
+_:row__253 <http://www.w3.org/ns/csvw#describes> _:bnode__254 .
+
+_:bnode__254 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__253 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 126;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=127> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__255 .
+
+_:row__255 <http://www.w3.org/ns/csvw#describes> _:bnode__256 .
+
+_:bnode__256 <http://schema.org/name> "silver_like_dusting" .
+
+_:row__255 <http://www.w3.org/ns/csvw#describes> _:bnode__256 .
+
+_:bnode__256 <http://www.inria.org/property/hasWeight> 2 .
+
+_:row__255 <http://www.w3.org/ns/csvw#describes> _:bnode__256 .
+
+_:bnode__256 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__255 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 127;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=128> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__257 .
+
+_:row__257 <http://www.w3.org/ns/csvw#describes> _:bnode__258 .
+
+_:bnode__258 <http://schema.org/name> "small_dents_in_nails" .
+
+_:row__257 <http://www.w3.org/ns/csvw#describes> _:bnode__258 .
+
+_:bnode__258 <http://www.inria.org/property/hasWeight> 2 .
+
+_:row__257 <http://www.w3.org/ns/csvw#describes> _:bnode__258 .
+
+_:bnode__258 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__257 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 128;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=129> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__259 .
+
+_:row__259 <http://www.w3.org/ns/csvw#describes> _:bnode__260 .
+
+_:bnode__260 <http://schema.org/name> "inflammatory_nails" .
+
+_:row__259 <http://www.w3.org/ns/csvw#describes> _:bnode__260 .
+
+_:bnode__260 <http://www.inria.org/property/hasWeight> 2 .
+
+_:row__259 <http://www.w3.org/ns/csvw#describes> _:bnode__260 .
+
+_:bnode__260 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__259 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 129;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=130> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__261 .
+
+_:row__261 <http://www.w3.org/ns/csvw#describes> _:bnode__262 .
+
+_:bnode__262 <http://schema.org/name> "blister" .
+
+_:row__261 <http://www.w3.org/ns/csvw#describes> _:bnode__262 .
+
+_:bnode__262 <http://www.inria.org/property/hasWeight> 4 .
+
+_:row__261 <http://www.w3.org/ns/csvw#describes> _:bnode__262 .
+
+_:bnode__262 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__261 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 130;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=131> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__263 .
+
+_:row__263 <http://www.w3.org/ns/csvw#describes> _:bnode__264 .
+
+_:bnode__264 <http://schema.org/name> "red_sore_around_nose" .
+
+_:row__263 <http://www.w3.org/ns/csvw#describes> _:bnode__264 .
+
+_:bnode__264 <http://www.inria.org/property/hasWeight> 2 .
+
+_:row__263 <http://www.w3.org/ns/csvw#describes> _:bnode__264 .
+
+_:bnode__264 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__263 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 131;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=132> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__265 .
+
+_:row__265 <http://www.w3.org/ns/csvw#describes> _:bnode__266 .
+
+_:bnode__266 <http://schema.org/name> "yellow_crust_ooze" .
+
+_:row__265 <http://www.w3.org/ns/csvw#describes> _:bnode__266 .
+
+_:bnode__266 <http://www.inria.org/property/hasWeight> 3 .
+
+_:row__265 <http://www.w3.org/ns/csvw#describes> _:bnode__266 .
+
+_:bnode__266 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__265 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 132;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=133> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__267 .
+
+_:row__267 <http://www.w3.org/ns/csvw#describes> _:bnode__268 .
+
+_:bnode__268 <http://schema.org/name> "prognosis" .
+
+_:row__267 <http://www.w3.org/ns/csvw#describes> _:bnode__268 .
+
+_:bnode__268 <http://www.inria.org/property/hasWeight> 5 .
+
+_:row__267 <http://www.w3.org/ns/csvw#describes> _:bnode__268 .
+
+_:bnode__268 a <http://www.inria.org/entity/Syndrom> .
+
+_:row__267 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 133;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv#row=134> .
+
+_:table__2 <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom-severity.csv> .

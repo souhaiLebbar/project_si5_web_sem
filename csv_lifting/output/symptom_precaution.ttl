@@ -1,0 +1,878 @@
+
+<http://www.inria.org/entity/Drug%20Reaction> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/name> "Drug Reaction";
+  <http://www.inria.org/property/hasTherapy> "consult nearest hospital", "follow up",
+    "stop irritation", "stop taking drug" .
+
+<http://www.inria.org/entity/Malaria> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/name> "Malaria";
+  <http://www.inria.org/property/hasTherapy> "Consult nearest hospital", "avoid non veg food",
+    "avoid oily food", "keep mosquitos out" .
+
+<http://www.inria.org/entity/Allergy> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/name> "Allergy";
+  <http://www.inria.org/property/hasTherapy> "apply calamine", "cover area with bandage",
+    "use ice to compress itching" .
+
+<http://www.inria.org/entity/Hypothyroidism> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/name> "Hypothyroidism";
+  <http://www.inria.org/property/hasTherapy> "eat healthy", "exercise", "get proper sleep",
+    "reduce stress" .
+
+<http://www.inria.org/entity/Psoriasis> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/name> "Psoriasis";
+  <http://www.inria.org/property/hasTherapy> "consult doctor", "salt baths", "stop bleeding using pressure",
+    "wash hands with warm soapy water" .
+
+<http://www.inria.org/entity/GERD> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/name> "GERD";
+  <http://www.inria.org/property/hasTherapy> "avoid fatty spicy food", "avoid lying down after eating",
+    "exercise", "maintain healthy weight" .
+
+<http://www.inria.org/entity/Chronic%20cholestasis> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/name> "Chronic cholestasis";
+  <http://www.inria.org/property/hasTherapy> "anti itch medicine", "cold baths", "consult doctor",
+    "eat healthy" .
+
+<http://www.inria.org/entity/hepatitis%20A> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/name> "hepatitis A";
+  <http://www.inria.org/property/hasTherapy> "Consult nearest hospital", "avoid fatty spicy food",
+    "medication", "wash hands through" .
+
+<http://www.inria.org/entity/Osteoarthristis> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/name> "Osteoarthristis";
+  <http://www.inria.org/property/hasTherapy> "acetaminophen", "consult nearest hospital",
+    "follow up", "salt baths" .
+
+<http://www.inria.org/entity/%28vertigo%29%20Paroymsal%20%20Positional%20Vertigo>
+  <http://schema.org/name> "(vertigo) Paroymsal  Positional Vertigo";
+  <http://www.inria.org/property/hasTherapy> "lie down" .
+
+_:tablegroup__1 a <http://www.w3.org/ns/csvw#TableGroup>;
+  <http://www.w3.org/ns/csvw#table> _:table__2 .
+
+_:table__2 a <http://www.w3.org/ns/csvw#Table>;
+  <http://www.w3.org/ns/csvw#row> _:row__11 .
+
+_:row__11 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Psoriasis>;
+  <http://www.w3.org/ns/csvw#rownum> 5;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=6> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__13 .
+
+_:row__13 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/GERD>;
+  <http://www.w3.org/ns/csvw#rownum> 6;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=7> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__15 .
+
+_:row__15 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Chronic%20cholestasis>;
+  <http://www.w3.org/ns/csvw#rownum> 7;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=8> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__17 .
+
+_:row__17 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/hepatitis%20A>;
+  <http://www.w3.org/ns/csvw#rownum> 8;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=9> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__19 .
+
+_:row__19 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Osteoarthristis>;
+  <http://www.w3.org/ns/csvw#rownum> 9;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=10> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__21 .
+
+_:row__21 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/%28vertigo%29%20Paroymsal%20%20Positional%20Vertigo>;
+  <http://www.w3.org/ns/csvw#rownum> 10;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=11> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__23 .
+
+_:row__23 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hypoglycemia>;
+  <http://www.w3.org/ns/csvw#rownum> 11;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=12> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__25 .
+
+_:row__25 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Acne>;
+  <http://www.w3.org/ns/csvw#rownum> 12;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=13> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__27 .
+
+_:row__27 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Diabetes>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Diabetes>;
+  <http://www.w3.org/ns/csvw#rownum> 13;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Diabetes>;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=14>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Diabetes> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__3 .
+
+_:row__3 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Drug%20Reaction>;
+  <http://www.w3.org/ns/csvw#rownum> 1;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=2> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__29 .
+
+_:row__29 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 14;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=15>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Impetigo> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__5 .
+
+_:row__5 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Malaria>;
+  <http://www.w3.org/ns/csvw#rownum> 2;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=3> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__7 .
+
+_:row__7 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Allergy>;
+  <http://www.w3.org/ns/csvw#rownum> 3;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=4> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__9 .
+
+_:row__9 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hypothyroidism>;
+  <http://www.w3.org/ns/csvw#rownum> 4;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=5> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__31 .
+
+_:row__31 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hypertension>;
+  <http://www.w3.org/ns/csvw#rownum> 15;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hypertension>;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=16>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hypertension> .
+
+_:table__2 <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv> .
+
+<http://www.inria.org/entity/%28vertigo%29%20Paroymsal%20%20Positional%20Vertigo>
+  a <http://www.inria.org/entity/Disease>;
+  <http://www.inria.org/property/hasTherapy> "avoid abrupt head movment", "avoid sudden change in body",
+    "relax" .
+
+<http://www.inria.org/entity/Hypoglycemia> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/name> "Hypoglycemia";
+  <http://www.inria.org/property/hasTherapy> "check in pulse", "consult doctor", "drink sugary drinks",
+    "lie down on side" .
+
+<http://www.inria.org/entity/Acne> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/name> "Acne";
+  <http://www.inria.org/property/hasTherapy> "avoid fatty spicy food", "avoid too many products",
+    "bath twice", "drink plenty of water" .
+
+<http://www.inria.org/entity/Diabetes> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/name> "Diabetes";
+  <http://www.inria.org/property/hasTherapy> "consult doctor", "exercise", "follow up",
+    "have balanced diet" .
+
+<http://www.inria.org/entity/Impetigo> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/name> "Impetigo";
+  <http://www.inria.org/property/hasTherapy> "consult doctor", "remove scabs with wet compressed cloth",
+    "soak affected area in warm water", "use antibiotics" .
+
+<http://www.inria.org/entity/Hypertension> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/name> "Hypertension";
+  <http://www.inria.org/property/hasTherapy> "get proper sleep", "meditation", "reduce stress",
+    "salt baths" .
+
+<http://www.inria.org/entity/Peptic%20ulcer%20diseae> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/name> "Peptic ulcer diseae";
+  <http://www.inria.org/property/hasTherapy> "avoid fatty spicy food", "consume probiotic food",
+    "eliminate milk", "limit alcohol" .
+
+<http://www.inria.org/entity/Dimorphic%20hemmorhoids%28piles%29> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/name> "Dimorphic hemmorhoids(piles)";
+  <http://www.inria.org/property/hasTherapy> "avoid fatty spicy food", "consume alovera juice",
+    "consume witch hazel", "warm bath with epsom salt" .
+
+<http://www.inria.org/entity/Common%20Cold> <http://schema.org/name> "Common Cold";
+  <http://www.inria.org/property/hasTherapy> "avoid cold food", "drink vitamin c rich drinks",
+    "keep fever in check", "take vapour";
+  a <http://www.inria.org/entity/Disease> .
+
+_:row__27 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Diabetes> .
+
+_:row__29 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Impetigo> .
+
+_:row__31 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hypertension> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__33 .
+
+_:row__33 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Peptic%20ulcer%20diseae>;
+  <http://www.w3.org/ns/csvw#rownum> 16;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=17> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__35 .
+
+_:row__35 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Dimorphic%20hemmorhoids%28piles%29>;
+  <http://www.w3.org/ns/csvw#rownum> 17;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=18> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__37 .
+
+_:row__37 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Common%20Cold>;
+  <http://www.w3.org/ns/csvw#rownum> 18;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=19> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__39 .
+
+_:row__39 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Chicken%20pox>;
+  <http://www.w3.org/ns/csvw#rownum> 19;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=20> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__41 .
+
+_:row__41 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Cervical%20spondylosis>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Cervical%20spondylosis>;
+  <http://www.w3.org/ns/csvw#rownum> 20;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Cervical%20spondylosis>;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=21>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Cervical%20spondylosis> .
+
+<http://www.inria.org/entity/Chicken%20pox> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/name> "Chicken pox";
+  <http://www.inria.org/property/hasTherapy> "avoid public places", "consume neem leaves",
+    "take vaccine", "use neem in bathing" .
+
+<http://www.inria.org/entity/Cervical%20spondylosis> a <http://www.inria.org/entity/Disease>;
+  <http://schema.org/name> "Cervical spondylosis";
+  <http://www.inria.org/property/hasTherapy> "consult doctor", "exercise", "take otc pain reliver",
+    "use heating pad or cold pack" .
+
+<http://www.inria.org/entity/Hyperthyroidism> <http://schema.org/name> "Hyperthyroidism";
+  <http://www.inria.org/property/hasTherapy> "eat healthy", "massage", "take radioactive iodine treatment";
+  a <http://www.inria.org/entity/Disease>;
+  <http://www.inria.org/property/hasTherapy> "use lemon balm" .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__43 .
+
+_:row__43 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hyperthyroidism>;
+  <http://www.w3.org/ns/csvw#rownum> 21;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=22> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__45 .
+
+_:row__45 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Urinary%20tract%20infection>;
+  <http://www.w3.org/ns/csvw#rownum> 22;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Urinary%20tract%20infection>;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=23>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Urinary%20tract%20infection> .
+
+<http://www.inria.org/entity/Urinary%20tract%20infection> <http://schema.org/name>
+    "Urinary tract infection";
+  <http://www.inria.org/property/hasTherapy> "drink cranberry juice";
+  a <http://www.inria.org/entity/Disease>;
+  <http://www.inria.org/property/hasTherapy> "drink plenty of water", "increase vitamin c intake",
+    "take probiotics" .
+
+_:row__45 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Urinary%20tract%20infection> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__47 .
+
+_:row__47 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Varicose%20veins>;
+  <http://www.w3.org/ns/csvw#rownum> 23;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Varicose%20veins>;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=24>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Varicose%20veins> .
+
+<http://www.inria.org/entity/Varicose%20veins> <http://schema.org/name> "Varicose veins";
+  <http://www.inria.org/property/hasTherapy> "lie down flat and raise the leg high",
+    "dont stand still for long", "use oinments";
+  a <http://www.inria.org/entity/Disease>;
+  <http://www.inria.org/property/hasTherapy> "use vein compression" .
+
+_:row__47 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Varicose%20veins> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__49 .
+
+_:row__49 <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=25>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/AIDS>;
+  a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/AIDS>;
+  <http://www.w3.org/ns/csvw#rownum> 24;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/AIDS> .
+
+<http://www.inria.org/entity/AIDS> <http://schema.org/name> "AIDS";
+  <http://www.inria.org/property/hasTherapy> "avoid open cuts", "consult doctor", "wear ppe if possible",
+    "follow up" .
+
+_:row__49 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/AIDS> .
+
+<http://www.inria.org/entity/AIDS> a <http://www.inria.org/entity/Disease> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__51 .
+
+_:row__51 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 25;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=26>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Paralysis%20%28brain%20hemorrhage%29> .
+
+<http://www.inria.org/entity/Paralysis%20%28brain%20hemorrhage%29> <http://schema.org/name>
+    "Paralysis (brain hemorrhage)" .
+
+_:row__51 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Paralysis%20%28brain%20hemorrhage%29> .
+
+<http://www.inria.org/entity/Paralysis%20%28brain%20hemorrhage%29> <http://www.inria.org/property/hasTherapy>
+    "massage" .
+
+_:row__51 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Paralysis%20%28brain%20hemorrhage%29> .
+
+<http://www.inria.org/entity/Paralysis%20%28brain%20hemorrhage%29> <http://www.inria.org/property/hasTherapy>
+    "eat healthy" .
+
+_:row__51 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Paralysis%20%28brain%20hemorrhage%29> .
+
+<http://www.inria.org/entity/Paralysis%20%28brain%20hemorrhage%29> <http://www.inria.org/property/hasTherapy>
+    "exercise" .
+
+_:row__51 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Paralysis%20%28brain%20hemorrhage%29> .
+
+<http://www.inria.org/entity/Paralysis%20%28brain%20hemorrhage%29> <http://www.inria.org/property/hasTherapy>
+    "consult doctor" .
+
+_:row__51 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Paralysis%20%28brain%20hemorrhage%29> .
+
+<http://www.inria.org/entity/Paralysis%20%28brain%20hemorrhage%29> a <http://www.inria.org/entity/Disease> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__53 .
+
+_:row__53 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 26;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=27>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Typhoid> .
+
+<http://www.inria.org/entity/Typhoid> <http://schema.org/name> "Typhoid" .
+
+_:row__53 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Typhoid> .
+
+<http://www.inria.org/entity/Typhoid> <http://www.inria.org/property/hasTherapy> "eat high calorie vegitables" .
+
+_:row__53 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Typhoid> .
+
+<http://www.inria.org/entity/Typhoid> <http://www.inria.org/property/hasTherapy> "antiboitic therapy" .
+
+_:row__53 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Typhoid> .
+
+<http://www.inria.org/entity/Typhoid> <http://www.inria.org/property/hasTherapy> "consult doctor" .
+
+_:row__53 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Typhoid> .
+
+<http://www.inria.org/entity/Typhoid> <http://www.inria.org/property/hasTherapy> "medication" .
+
+_:row__53 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Typhoid> .
+
+<http://www.inria.org/entity/Typhoid> a <http://www.inria.org/entity/Disease> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__55 .
+
+_:row__55 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 27;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=28>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20B> .
+
+<http://www.inria.org/entity/Hepatitis%20B> <http://schema.org/name> "Hepatitis B" .
+
+_:row__55 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20B> .
+
+<http://www.inria.org/entity/Hepatitis%20B> <http://www.inria.org/property/hasTherapy>
+    "consult nearest hospital" .
+
+_:row__55 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20B> .
+
+<http://www.inria.org/entity/Hepatitis%20B> <http://www.inria.org/property/hasTherapy>
+    "vaccination" .
+
+_:row__55 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20B> .
+
+<http://www.inria.org/entity/Hepatitis%20B> <http://www.inria.org/property/hasTherapy>
+    "eat healthy" .
+
+_:row__55 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20B> .
+
+<http://www.inria.org/entity/Hepatitis%20B> <http://www.inria.org/property/hasTherapy>
+    "medication" .
+
+_:row__55 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20B> .
+
+<http://www.inria.org/entity/Hepatitis%20B> a <http://www.inria.org/entity/Disease> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__57 .
+
+_:row__57 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 28;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=29>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Fungal%20infection> .
+
+<http://www.inria.org/entity/Fungal%20infection> <http://schema.org/name> "Fungal infection" .
+
+_:row__57 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Fungal%20infection> .
+
+<http://www.inria.org/entity/Fungal%20infection> <http://www.inria.org/property/hasTherapy>
+    "bath twice" .
+
+_:row__57 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Fungal%20infection> .
+
+<http://www.inria.org/entity/Fungal%20infection> <http://www.inria.org/property/hasTherapy>
+    "use detol or neem in bathing water" .
+
+_:row__57 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Fungal%20infection> .
+
+<http://www.inria.org/entity/Fungal%20infection> <http://www.inria.org/property/hasTherapy>
+    "keep infected area dry" .
+
+_:row__57 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Fungal%20infection> .
+
+<http://www.inria.org/entity/Fungal%20infection> <http://www.inria.org/property/hasTherapy>
+    "use clean cloths" .
+
+_:row__57 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Fungal%20infection> .
+
+<http://www.inria.org/entity/Fungal%20infection> a <http://www.inria.org/entity/Disease> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__59 .
+
+_:row__59 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 29;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=30>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20C> .
+
+<http://www.inria.org/entity/Hepatitis%20C> <http://schema.org/name> "Hepatitis C" .
+
+_:row__59 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20C> .
+
+<http://www.inria.org/entity/Hepatitis%20C> <http://www.inria.org/property/hasTherapy>
+    "Consult nearest hospital" .
+
+_:row__59 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20C> .
+
+<http://www.inria.org/entity/Hepatitis%20C> <http://www.inria.org/property/hasTherapy>
+    "vaccination" .
+
+_:row__59 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20C> .
+
+<http://www.inria.org/entity/Hepatitis%20C> <http://www.inria.org/property/hasTherapy>
+    "eat healthy" .
+
+_:row__59 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20C> .
+
+<http://www.inria.org/entity/Hepatitis%20C> <http://www.inria.org/property/hasTherapy>
+    "medication" .
+
+_:row__59 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20C> .
+
+<http://www.inria.org/entity/Hepatitis%20C> a <http://www.inria.org/entity/Disease> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__61 .
+
+_:row__61 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 30;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=31>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Migraine> .
+
+<http://www.inria.org/entity/Migraine> <http://schema.org/name> "Migraine" .
+
+_:row__61 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Migraine> .
+
+<http://www.inria.org/entity/Migraine> <http://www.inria.org/property/hasTherapy>
+    "meditation" .
+
+_:row__61 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Migraine> .
+
+<http://www.inria.org/entity/Migraine> <http://www.inria.org/property/hasTherapy>
+    "reduce stress" .
+
+_:row__61 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Migraine> .
+
+<http://www.inria.org/entity/Migraine> <http://www.inria.org/property/hasTherapy>
+    "use poloroid glasses in sun" .
+
+_:row__61 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Migraine> .
+
+<http://www.inria.org/entity/Migraine> <http://www.inria.org/property/hasTherapy>
+    "consult doctor" .
+
+_:row__61 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Migraine> .
+
+<http://www.inria.org/entity/Migraine> a <http://www.inria.org/entity/Disease> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__63 .
+
+_:row__63 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 31;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=32>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Bronchial%20Asthma> .
+
+<http://www.inria.org/entity/Bronchial%20Asthma> <http://schema.org/name> "Bronchial Asthma" .
+
+_:row__63 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Bronchial%20Asthma> .
+
+<http://www.inria.org/entity/Bronchial%20Asthma> <http://www.inria.org/property/hasTherapy>
+    "switch to loose cloothing" .
+
+_:row__63 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Bronchial%20Asthma> .
+
+<http://www.inria.org/entity/Bronchial%20Asthma> <http://www.inria.org/property/hasTherapy>
+    "take deep breaths" .
+
+_:row__63 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Bronchial%20Asthma> .
+
+<http://www.inria.org/entity/Bronchial%20Asthma> <http://www.inria.org/property/hasTherapy>
+    "get away from trigger" .
+
+_:row__63 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Bronchial%20Asthma> .
+
+<http://www.inria.org/entity/Bronchial%20Asthma> <http://www.inria.org/property/hasTherapy>
+    "seek help" .
+
+_:row__63 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Bronchial%20Asthma> .
+
+<http://www.inria.org/entity/Bronchial%20Asthma> a <http://www.inria.org/entity/Disease> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__65 .
+
+_:row__65 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 32;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=33>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Alcoholic%20hepatitis> .
+
+<http://www.inria.org/entity/Alcoholic%20hepatitis> <http://schema.org/name> "Alcoholic hepatitis" .
+
+_:row__65 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Alcoholic%20hepatitis> .
+
+<http://www.inria.org/entity/Alcoholic%20hepatitis> <http://www.inria.org/property/hasTherapy>
+    "stop alcohol consumption" .
+
+_:row__65 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Alcoholic%20hepatitis> .
+
+<http://www.inria.org/entity/Alcoholic%20hepatitis> <http://www.inria.org/property/hasTherapy>
+    "consult doctor" .
+
+_:row__65 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Alcoholic%20hepatitis> .
+
+<http://www.inria.org/entity/Alcoholic%20hepatitis> <http://www.inria.org/property/hasTherapy>
+    "medication" .
+
+_:row__65 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Alcoholic%20hepatitis> .
+
+<http://www.inria.org/entity/Alcoholic%20hepatitis> <http://www.inria.org/property/hasTherapy>
+    "follow up" .
+
+_:row__65 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Alcoholic%20hepatitis> .
+
+<http://www.inria.org/entity/Alcoholic%20hepatitis> a <http://www.inria.org/entity/Disease> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__67 .
+
+_:row__67 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 33;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=34>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Jaundice> .
+
+<http://www.inria.org/entity/Jaundice> <http://schema.org/name> "Jaundice" .
+
+_:row__67 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Jaundice> .
+
+<http://www.inria.org/entity/Jaundice> <http://www.inria.org/property/hasTherapy>
+    "drink plenty of water" .
+
+_:row__67 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Jaundice> .
+
+<http://www.inria.org/entity/Jaundice> <http://www.inria.org/property/hasTherapy>
+    "consume milk thistle" .
+
+_:row__67 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Jaundice> .
+
+<http://www.inria.org/entity/Jaundice> <http://www.inria.org/property/hasTherapy>
+    "eat fruits and high fiberous food" .
+
+_:row__67 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Jaundice> .
+
+<http://www.inria.org/entity/Jaundice> <http://www.inria.org/property/hasTherapy>
+    "medication" .
+
+_:row__67 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Jaundice> .
+
+<http://www.inria.org/entity/Jaundice> a <http://www.inria.org/entity/Disease> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__69 .
+
+_:row__69 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 34;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=35>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20E> .
+
+<http://www.inria.org/entity/Hepatitis%20E> <http://schema.org/name> "Hepatitis E" .
+
+_:row__69 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20E> .
+
+<http://www.inria.org/entity/Hepatitis%20E> <http://www.inria.org/property/hasTherapy>
+    "stop alcohol consumption" .
+
+_:row__69 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20E> .
+
+<http://www.inria.org/entity/Hepatitis%20E> <http://www.inria.org/property/hasTherapy>
+    "rest" .
+
+_:row__69 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20E> .
+
+<http://www.inria.org/entity/Hepatitis%20E> <http://www.inria.org/property/hasTherapy>
+    "consult doctor" .
+
+_:row__69 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20E> .
+
+<http://www.inria.org/entity/Hepatitis%20E> <http://www.inria.org/property/hasTherapy>
+    "medication" .
+
+_:row__69 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20E> .
+
+<http://www.inria.org/entity/Hepatitis%20E> a <http://www.inria.org/entity/Disease> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__71 .
+
+_:row__71 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 35;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=36>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Dengue> .
+
+<http://www.inria.org/entity/Dengue> <http://schema.org/name> "Dengue" .
+
+_:row__71 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Dengue> .
+
+<http://www.inria.org/entity/Dengue> <http://www.inria.org/property/hasTherapy> "drink papaya leaf juice" .
+
+_:row__71 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Dengue> .
+
+<http://www.inria.org/entity/Dengue> <http://www.inria.org/property/hasTherapy> "avoid fatty spicy food" .
+
+_:row__71 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Dengue> .
+
+<http://www.inria.org/entity/Dengue> <http://www.inria.org/property/hasTherapy> "keep mosquitos away" .
+
+_:row__71 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Dengue> .
+
+<http://www.inria.org/entity/Dengue> <http://www.inria.org/property/hasTherapy> "keep hydrated" .
+
+_:row__71 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Dengue> .
+
+<http://www.inria.org/entity/Dengue> a <http://www.inria.org/entity/Disease> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__73 .
+
+_:row__73 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 36;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=37>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20D> .
+
+<http://www.inria.org/entity/Hepatitis%20D> <http://schema.org/name> "Hepatitis D" .
+
+_:row__73 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20D> .
+
+<http://www.inria.org/entity/Hepatitis%20D> <http://www.inria.org/property/hasTherapy>
+    "consult doctor" .
+
+_:row__73 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20D> .
+
+<http://www.inria.org/entity/Hepatitis%20D> <http://www.inria.org/property/hasTherapy>
+    "medication" .
+
+_:row__73 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20D> .
+
+<http://www.inria.org/entity/Hepatitis%20D> <http://www.inria.org/property/hasTherapy>
+    "eat healthy" .
+
+_:row__73 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20D> .
+
+<http://www.inria.org/entity/Hepatitis%20D> <http://www.inria.org/property/hasTherapy>
+    "follow up" .
+
+_:row__73 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Hepatitis%20D> .
+
+<http://www.inria.org/entity/Hepatitis%20D> a <http://www.inria.org/entity/Disease> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__75 .
+
+_:row__75 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 37;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=38>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Heart%20attack> .
+
+<http://www.inria.org/entity/Heart%20attack> <http://schema.org/name> "Heart attack" .
+
+_:row__75 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Heart%20attack> .
+
+<http://www.inria.org/entity/Heart%20attack> <http://www.inria.org/property/hasTherapy>
+    "call ambulance" .
+
+_:row__75 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Heart%20attack> .
+
+<http://www.inria.org/entity/Heart%20attack> <http://www.inria.org/property/hasTherapy>
+    "chew or swallow asprin" .
+
+_:row__75 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Heart%20attack> .
+
+<http://www.inria.org/entity/Heart%20attack> <http://www.inria.org/property/hasTherapy>
+    "keep calm" .
+
+_:row__75 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Heart%20attack>,
+    <http://www.inria.org/entity/Heart%20attack> .
+
+<http://www.inria.org/entity/Heart%20attack> a <http://www.inria.org/entity/Disease> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__77 .
+
+_:row__77 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 38;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=39>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Pneumonia> .
+
+<http://www.inria.org/entity/Pneumonia> <http://schema.org/name> "Pneumonia" .
+
+_:row__77 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Pneumonia> .
+
+<http://www.inria.org/entity/Pneumonia> <http://www.inria.org/property/hasTherapy>
+    "consult doctor" .
+
+_:row__77 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Pneumonia> .
+
+<http://www.inria.org/entity/Pneumonia> <http://www.inria.org/property/hasTherapy>
+    "medication" .
+
+_:row__77 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Pneumonia> .
+
+<http://www.inria.org/entity/Pneumonia> <http://www.inria.org/property/hasTherapy>
+    "rest" .
+
+_:row__77 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Pneumonia> .
+
+<http://www.inria.org/entity/Pneumonia> <http://www.inria.org/property/hasTherapy>
+    "follow up" .
+
+_:row__77 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Pneumonia> .
+
+<http://www.inria.org/entity/Pneumonia> a <http://www.inria.org/entity/Disease> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__79 .
+
+_:row__79 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 39;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=40>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Arthritis> .
+
+<http://www.inria.org/entity/Arthritis> <http://schema.org/name> "Arthritis" .
+
+_:row__79 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Arthritis> .
+
+<http://www.inria.org/entity/Arthritis> <http://www.inria.org/property/hasTherapy>
+    "exercise" .
+
+_:row__79 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Arthritis> .
+
+<http://www.inria.org/entity/Arthritis> <http://www.inria.org/property/hasTherapy>
+    "use hot and cold therapy" .
+
+_:row__79 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Arthritis> .
+
+<http://www.inria.org/entity/Arthritis> <http://www.inria.org/property/hasTherapy>
+    "try acupuncture" .
+
+_:row__79 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Arthritis> .
+
+<http://www.inria.org/entity/Arthritis> <http://www.inria.org/property/hasTherapy>
+    "massage" .
+
+_:row__79 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Arthritis> .
+
+<http://www.inria.org/entity/Arthritis> a <http://www.inria.org/entity/Disease> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__81 .
+
+_:row__81 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 40;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=41>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Gastroenteritis> .
+
+<http://www.inria.org/entity/Gastroenteritis> <http://schema.org/name> "Gastroenteritis" .
+
+_:row__81 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Gastroenteritis> .
+
+<http://www.inria.org/entity/Gastroenteritis> <http://www.inria.org/property/hasTherapy>
+    "stop eating solid food for while" .
+
+_:row__81 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Gastroenteritis> .
+
+<http://www.inria.org/entity/Gastroenteritis> <http://www.inria.org/property/hasTherapy>
+    "try taking small sips of water" .
+
+_:row__81 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Gastroenteritis> .
+
+<http://www.inria.org/entity/Gastroenteritis> <http://www.inria.org/property/hasTherapy>
+    "rest" .
+
+_:row__81 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Gastroenteritis> .
+
+<http://www.inria.org/entity/Gastroenteritis> <http://www.inria.org/property/hasTherapy>
+    "ease back into eating" .
+
+_:row__81 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Gastroenteritis> .
+
+<http://www.inria.org/entity/Gastroenteritis> a <http://www.inria.org/entity/Disease> .
+
+_:table__2 <http://www.w3.org/ns/csvw#row> _:row__83 .
+
+_:row__83 a <http://www.w3.org/ns/csvw#Row>;
+  <http://www.w3.org/ns/csvw#rownum> 41;
+  <http://www.w3.org/ns/csvw#url> <file:/mnt/c/Users/lebba/Desktop/Module%20Data/Web%20of%20linked%20data/Projet_Knowledge_Ing/csv_lifting/data/symptom_precaution.csv#row=42>;
+  <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Tuberculosis> .
+
+<http://www.inria.org/entity/Tuberculosis> <http://schema.org/name> "Tuberculosis" .
+
+_:row__83 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Tuberculosis> .
+
+<http://www.inria.org/entity/Tuberculosis> <http://www.inria.org/property/hasTherapy>
+    "cover mouth" .
+
+_:row__83 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Tuberculosis> .
+
+<http://www.inria.org/entity/Tuberculosis> <http://www.inria.org/property/hasTherapy>
+    "consult doctor" .
+
+_:row__83 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Tuberculosis> .
+
+<http://www.inria.org/entity/Tuberculosis> <http://www.inria.org/property/hasTherapy>
+    "medication" .
+
+_:row__83 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Tuberculosis> .
+
+<http://www.inria.org/entity/Tuberculosis> <http://www.inria.org/property/hasTherapy>
+    "rest" .
+
+_:row__83 <http://www.w3.org/ns/csvw#describes> <http://www.inria.org/entity/Tuberculosis> .
+
+<http://www.inria.org/entity/Tuberculosis> a <http://www.inria.org/entity/Disease> .

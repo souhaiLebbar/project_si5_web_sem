@@ -1,0 +1,27 @@
+{
+    "@context": ["http://www.w3.org/ns/csvw",{"@language":"en"}],
+    "url": "../data/symptom_Description.csv",
+    "aboutUrl": "http://www.inria.org/entity/{Disease}",
+    "tableSchema": {
+        "primaryKey" : "Disease",
+        "columns": [{
+            "name": "Disease",
+            "datatype" : "string",
+            "propertyUrl": "schema:name",
+            "dc:description": "Disease name"
+        },
+        {
+            "name": "Description",
+            "datatype" : "string",
+            "propertyUrl": "schema:description",
+            "dc:description": "Description of the disease"
+        },
+        {
+            "name": "type_disease",
+            "virtual": true,
+            "propertyUrl": "rdf:type",
+            "valueUrl": "http://www.inria.org/entity/Disease"
+        }
+        ]
+      }
+}

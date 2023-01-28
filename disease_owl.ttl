@@ -1,0 +1,201 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl:  <http://www.w3.org/2002/07/owl#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix skos: <http://www.w3.org/2008/05/skos#> .
+@prefix mc: <http://www.inria.org/entity/> .
+@prefix mp: <http://www.inria.org/property/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+
+# Classes
+
+mc:Disease
+    a
+        owl:Thing ,
+        skos:Concept ;
+    owl:sameAs wd:Q12136 ;
+    owl:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty mp:hasSymptom ;
+        owl:minCardinality 1
+    ] ;
+    owl:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty mp:hasTherapy ;
+        owl:minCardinality 1
+    ] ;
+    skos:definition
+        "Abnormal condition negatively affecting organisms."@en ,
+        "Altération de la santé."@fr ;
+    skos:prefLabel
+        "Disease"@en ,
+        "Maladie"@fr .
+
+mc:Patient
+    a
+        foaf:Person ,
+        skos:Concept ;
+    owl:sameAs wd:Q181600 ;
+    owl:subclassOf [
+        a owl:Restriction ;
+        owl:onProperty mp:consulted ;
+        owl:minCardinality 1
+    ] ;
+    skos:definition
+        "Person who takes a medical treatment or is subject of a case study."@en ,
+        "Personne recevant une attention médicale."@fr ;
+    skos:prefLabel
+        "Patient"@en ,
+        "Patient"@fr .
+
+mc:Consultation
+    a
+        owl:Class ,
+        skos:Concept ;
+    owl:sameAs wd:Q4014799 ;
+    skos:definition 
+        "Appointment where a patient sees a doctor for a health problem"@en ,
+        "Rendez-vous durant lequel un patient voit un docteur pour un problème de santé"@fr ;
+    skos:prefLabel 
+        "Consultation"@en ,
+        "Consultation"@fr .
+
+mc:Symptom
+    a
+        owl:Class ,
+        skos:Concept ;
+    owl:sameAs wd:Q169872 ;
+    skos:definition
+        "Departure from normal function or feeling which is noticed by a patient, reflecting the presence of an unusual state, or of a disease; subjective, observed by the patient, cannot be measured directly"@en ,
+        "Signal indicatif d'une maladie ou d'une blessure"@fr ;
+    skos:prefLabel
+        "Symptom"@en ,
+        "Symptôme"@fr .
+
+mc:Doctor
+    a
+        owl:Class ,
+        skos:Concept ;
+    owl:sameAs wd:Q39631 ;
+    rdfs:subClassOf foaf:Person ;
+    skos:definition
+        "Professional who practices medicine"@en ,
+        "Professionnel de santé pratiquant la médecine"@fr ;
+    skos:prefLabel
+        "Doctor"@en ,
+        "Docteur"@fr .
+
+mc:Medicine
+    a
+        owl:class ,
+        skos:Concept ;
+    owl:sameAs wd:Q12140 ;
+    skos:definition
+        "Substance used to diagnose, cure, treat, or prevent disease"@en ,
+        "Type de substance destinée à soigner, diagnostiquer, traîter ou prévenir une maladie"@fr ;
+    skos:prefLabel
+        "Medicine"@en ,
+        "Médicament"@fr .
+
+# Properties
+
+mp:docInCharge
+    a owl:ObjectProperty ;
+    rdfs:domain mc:Consultation ;
+    rdfs:range mc:Doctor ;
+    rdfs:comment 
+        "The doctor in charge of the consultation."@en ,
+        "Le docteur en charge d'une consultation"@fr ;
+    rdfs:label
+        "Doctor in charge"@en ,
+        "Docteur responsable"@fr .
+
+mp:declaredSymptom
+    a owl:ObjectProperty ;
+    rdfs:domain mc:Consultation ;
+    rdfs:range mc:Symptom ;
+    rdfs:comment 
+        "The patient declared having the given Symptom during his or her consultation"@en ,
+        "Le patient a déclaré avoir le syndrôme donné durant sa consultation"@fr ;
+    rdfs:label
+        "Declared the Symptom"@en ,
+        "A déclaré le syndrôme"@fr .
+
+mp:triedMed
+    a owl:ObjectProperty ;
+    rdfs:domain mc:Consultation ;
+    rdfs:range mc:Medicine ;
+    rdfs:comment
+        "The patient declared having tried the given medicine"@en ,
+        "Le patient a déclaré avoir utilisé le médicament donné"@fr ;
+    rdfs:label
+        "Tried the medicine"@en ,
+        "A essayé le médicament"@fr .
+
+mp:tookPlace
+    a owl:ObjectProperty ;
+    rdfs:domain mc:Consultation ;
+    rdfs:range xsd:dateTime ;
+    rdfs:comment
+        "The datetime of the consultation"@en ,
+        "Le jour et l'heure de la consultation"@fr ;
+    rdfs:label
+        "Datetime"@en ,
+        "Jour et heure"@fr .
+
+mp:name
+    a owl:ObjectProperty ;
+    rdfs:subPropertyOf foaf:name ;
+    rdfs:domain foaf:Person ;
+    rdfs:range xsd:string ;
+    rdfs:comment
+        "The name of the given person"@en ,
+        "Le nom de la personne donnée"@fr ;
+    rdfs:label
+        "is named"@en ,
+        "se nomme"@fr .
+
+mp:consulted 
+    a rdfs:ObjectProperty ;
+    rdfs:domain mc:Patient ;
+    rdfs:range mc:Consultation ;
+    rdfs:comment
+        "A consultation a patient has with a doctor about a health problem He or She has"@en ,
+        "Une consultation qu'un patient a avec un docteur à propos d'un problème de santé que ce patient a"@fr ;
+    rdfs:labels
+        "consulted"@en ,
+        "a consulté"@fr .
+
+mp:hasSymptom
+    a owl:ObjectProperty ;
+    rdfs:domain mc:Disease ;
+    rdfs:range mc:Symptom ;
+    rdfs:comment
+        "Possible symptoms or signs of a medical condition a disease has"@en ,
+        "Possibles symptômes ou signes qu'une condition médicale ou une maladie peut avoir"@fr ;
+    rdfs:label
+        "has the symptom"@en ,
+        "a le symptôme"@fr .
+
+mp:hasTherapy
+    a owl:ObjectProperty ;
+    rdfs:domain mc:Disease ;
+    rdfs:range mc:Therapy ;
+    rdfs:comment
+        "Possible therapy a patient can have to cure his or her disease"@en ,
+        "Thérapie possible qu'un patient peut suivre pour guérir sa maladie"@fr ;
+    rdfs:label
+        "has for therapy"@en ,
+        "a pour thérapie"@fr .
+
+mp:hasWeight
+    a owl:ObjectProperty ;
+    rdfs:domain mc:Symptom ;
+    rdfs:range xsd:integer ;
+    rdfs:comment
+        "severity degree of the Symptom"@en ,
+        "Degré de gravité du syndrôme."@fr ;
+    rdfs:label
+        "has severity degree"@en ,
+        "a pour degré de gravité"@fr .
