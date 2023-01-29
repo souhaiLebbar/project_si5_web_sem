@@ -1,6 +1,7 @@
 {
     "@context": ["http://www.w3.org/ns/csvw",{"@language":"en"}],
     "url": "../data/linked.csv",
+    "aboutUrl": "https://www.wikidata.org/entity/Q464067",
     "tableSchema": {
         "columns": [
         {
@@ -143,92 +144,92 @@
         },
         {
             "name" : "link_disease",
-            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "propertyUrl": "http://www.inria.org/entity/Disease",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_1",
-            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_2",
-            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_3",
-            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string" 
         },
         {
             "name" : "linked_symptom_4",
-            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_5",
-            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_6",
-            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_7",
-            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_8",
-            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_9",
-            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_10",
-            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_11",
-            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_12",
-            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_13",
-            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_14",
-            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_15",
-            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string"
         },        
         {
             "name" : "linked_symptom_16",
-            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_17",
-            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string"
         }
         ]
