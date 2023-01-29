@@ -141,7 +141,7 @@ with st.form("Patient form"):
    # Every form must have a submit button.
    submitted = st.form_submit_button("Submit")
 
-if submitted & (fname=="test") :
+if submitted & (txt!="") :
     st.title("Diagnostic report")
     coref = spacy.load("en_core_web_lg")
     coref.add_pipe('coreferee')
@@ -193,88 +193,6 @@ if submitted & (fname=="test") :
     st.subheader("RESULT")
     for item in q1res:
         st.write(item)
-    
-if submitted & (txt!=""):
-    st.title("Diagnostic report")
-    coref = spacy.load("en_core_web_lg")
-    coref.add_pipe('coreferee')
-
-    disease = spacy.load("en_core_sci_sm")
-    disease.add_pipe('entityfishing', config={
-            "extra_info": True,
-            "api_ef_base": "http://nerd.huma-num.fr/nerd/service"
-        })
-    sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
-    sparql.setReturnFormat(JSON)
-
-    doctor_id = uuid4()
-    g = Dataset()
-    st.subheader("Patient Graph : INSERT query:")
-    #folder_id, insertQuery = text_2_sparql("Johnson", "684656-8146516-13520", txt, doctor_id)
-    insert_test = """
-    PREFIX pat: <http://www.inria.org/patients/>
-    PREFIX doc: <http://www.inria.org/doctors/>
-    PREFIX cons: <http://www.inria.org/consultations/>
-    PREFIX mc: <http://www.inria.org/entity/>
-    PREFIX mp: <http://www.inria.org/property/>
-    PREFIX wd: <http://www.wikidata.org/entity/>
-    PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-        
-    INSERT DATA { 
-                GRAPH <http://localhost:8082>{
-                pat:f16995b6-e355-47fd-a5fd-26880da8eb17
-                    a mc:Patient ;
-                    mp:name "Johnson" ;
-                    mp:consulted cons:f16995b6-e355-47fd-a5fd-26880da8eb14 .
-                    
-                cons:f16995b6-e355-47fd-a5fd-26880da8eb18
-                    a mc:Consultation ;
-                    mp:docInCharge doc:a29d1181-e1d9-447d-81ca-d7e6c7fd2060 ;
-                    mp:tookPlace "2023-01-25T14:22:51"^^xsd:dateTime ;
-                    mp:declaredSymptom wd:Q606216 ;
-                    mp:declaredSymptom wd:Q38933 ;
-                    mp:declaredSymptom wd:Q35805 ;
-                    mp:declaredSymptom wd:Q86 ;
-                    mp:triedMed wd:Q12187 .
-                }
-        }
-    """
-    st.write("```"+insert_test)
-    g.update(insert_test)
-    req1 = """
-    SELECT ?disease ?name (count(?symptom) AS ?count) WHERE {
-        GRAPH <http://localhost:8082> {
-            cons:f16995b6-e355-47fd-a5fd-26880da8eb18
-            mp:declaredSymptom ?symptom  .
-
-            SERVICE <https://query.wikidata.org/sparql> {
-                ?disease
-            wdt:P31 wd:Q112193867 ;
-            wdt:P780 ?symptom ;
-            rdfs:label ?name .
-
-            filter(lang(?name) = 'en') 
-            }
-
-        }
-    }
-    GROUP BY ?disease
-    ORDER BY DESC(?count)
-    LIMIT 10
-    """
-    st.subheader("search the symptoms of the consultation of the wikidata and returns the diseases which have these symptoms + meds")
-    q1res = g.query(req1,initNs={
-        'cons': 'http://www.inria.org/consultations/',
-        'mp': 'http://www.inria.org/property/',
-        'wd': 'http://www.wikidata.org/entity/',
-        'wdt': 'http://www.wikidata.org/prop/direct/',
-        'rdfs' : 'http://www.w3.org/2000/01/rdf-schema#'
-    })
-
-    st.subheader("RESULT")
-    for item in q1res:
-        st.write(item)
-    #st.write(df)   
 
 if submitted & (txt=="wiki"):
     sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
