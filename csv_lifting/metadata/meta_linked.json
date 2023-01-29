@@ -1,9 +1,7 @@
 {
     "@context": ["http://www.w3.org/ns/csvw",{"@language":"en"}],
     "url": "../data/linked.csv",
-    "aboutUrl": "http://www.inria.org/entity/{Disease}",
     "tableSchema": {
-        "primaryKey" : "Disease",
         "columns": [
         {
             "name": "id",

@@ -6,10 +6,6 @@
         "primaryKey" : "Disease",
         "columns": [
         {
-            "name": "id",
-            "supressionOutput": "True"
-        },
-        {
             "name": "Disease",
             "datatype" : "string",
             "propertyUrl": "schema:name",
