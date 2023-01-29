@@ -108,10 +108,4 @@ ms:DoctorShape
             mc:Consltation ,
             mc:Doctor ,
             mc:Symptom
-    ] ;
-    sh:property [
-        sh:path mp:name ;
-        sh:datatype xsd:string ;
-        sh:minCount 1 ;
-        sh:maxCount 1
     ] .
