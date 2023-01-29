@@ -19,7 +19,7 @@ ms:DiseaseShape
     ] ;
     sh:property [
         sh:path mp:hasSymptom ;
-        sh:datatype mc:Symptom ;
+        sh:class mc:Symptom ;
         sh:minCount 1
     ] .
 
@@ -36,7 +36,7 @@ ms:PatientShape
     ] ;
     sh:property [
         sh:path mp:consulted ;
-        sh:datatype mc:Consultation ;
+        sh:class mc:Consultation ;
         sh:minCount 1
     ] , [
         sh:path mp:name ;
@@ -59,12 +59,12 @@ ms:ConsultationShape
     sh:property
         [
             sh:path mp:declaredSymptom ;
-            sh:datatype mc:Symptom ;
+            sh:class mc:Symptom ;
             sh:minCount 1
         ] ,
         [
             sh:path mp:docInCharge ;
-            sh:datatype mc:Doctor ;
+            sh:class mc:Doctor ;
             sh:minCount 1 ;
             sh:maxCount 1
         ] ,
@@ -76,7 +76,7 @@ ms:ConsultationShape
         ] ,
         [
             sh:path mp:triedMed ;
-            sh:datatype mc:Medicine
+            sh:class mc:Medicine
         ] .
 
 ms:SymptomShape
@@ -92,7 +92,7 @@ ms:SymptomShape
     ] ;
     sh:property [
         sh:path mp:symptomOf ;
-        sh:datatype mc:Disease ;
+        sh:class mc:Disease ;
         sh:minCount 1
     ] .
 
@@ -109,7 +109,7 @@ ms:MedicineShape
     ] ;
     sh:property [
         sh:path mc:cures ;
-        sh:datatype mc:Disease ;
+        sh:class mc:Disease ;
         sh:minCount 1
     ] .
 
