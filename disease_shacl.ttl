@@ -89,11 +89,6 @@ ms:SymptomShape
             mc:Consltation ,
             mc:Doctor ,
             mc:Medicine
-    ] ;
-    sh:property [
-        sh:path mp:symptomOf ;
-        sh:class mc:Disease ;
-        sh:minCount 1
     ] .
 
 ms:MedicineShape
