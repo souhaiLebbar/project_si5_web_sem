@@ -133,9 +133,9 @@ st.title("Doctor's visit")
 
 
 with st.form("Patient form"):
-   title = st.text_input('First name', '')
-   title = st.text_input('Last name', '')
-   title = st.text_input('NSS', '')
+   title = st.text_input('First name', 'Johnson')
+   title = st.text_input('Last name', 'Dwayn')
+   title = st.text_input('NSS', '160 40 50 22 35 00')
    d= st.date_input("Patient birthday",) 
    txt = st.text_area('How do your patient feel ?',"Johnson suffered from a fever. He also had a headache for 3 days. He also has hypocalcemia. He already tried peramivir")
    # Every form must have a submit button.
@@ -160,19 +160,38 @@ if submitted & (txt!=""):
     insertQuery = text_2_sparql("Johnson", "684656-8146516-13520", txt, doctor_id)
     st.write("```"+insertQuery)
     g.update(insertQuery)
-    dump = """
-    SELECT * WHERE {
-        GRAPH <http://localhost:8082> {
-            ?s ?p ?o
-        }
+    req1 = """
+    PREFIX cons: <http://www.inria.org/consultations/>
+    PREFIX mp: <http://www.inria.org/property/>
+    PREFIX wd: <http://www.wikidata.org/entity/>
+    PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+    SELECT ?disease ?name (count(?symptom) AS ?count) WHERE {
+        cons:f16995b6-e355-47fd-a5fd-26880da8eb18
+            mp:declaredSymptom ?symptom  .
+
+        SERVICE <https://query.wikidata.org/sparql> {
+            ?disease
+        wdt:P31 wd:Q112193867 ;
+        wdt:P780 ?symptom ;
+        rdfs:label ?name .
+
+        filter(lang(?name) = 'en') 
+        
     }
+    }
+    GROUP BY ?disease
+    ORDER BY DESC(?count)
+    LIMIT 10
     """
-    st.subheader("Patient Graph : SELECT Query")
-    qres = g.query(dump)
-    st.write("```"+dump)
+    st.write(g.serialize())
+    st.subheader("search the symptoms of the consultation of the wikidata and returns the diseases which have these symptoms + meds")
+    q1res = g.query(req1)
+    st.write("```"+req1)
     st.subheader("RESULT")
-    print(len(qres))
-    for item in qres:
+    print(len(q1res))
+    for item in q1res:
         st.write(item)
 
 if submitted & (txt=="wiki"):
