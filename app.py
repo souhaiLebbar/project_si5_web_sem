@@ -9,7 +9,7 @@ import spacyfishing
 import coreferee
 from uuid import uuid4
 from datetime import datetime
-import pprint
+from pyshacl import validate
 
 def coref_resolution(name, text):
     final_text = ""
@@ -160,6 +160,11 @@ if submitted & (txt!="") :
     folder_id, insertQuery = text_2_sparql("Johnson", "684656-8146516-13520", txt, doctor_id)
     st.write("```"+insertQuery)
     g.update(insertQuery)
+    st.subheader("Schacl validation report :")
+    s = Graph().parse("disease_shacl.ttl", format="turtle")
+    conforms, report, message = validate(g, shacl_graph=s, advanced=True, debug=False)
+    st.write("```"+message)
+
     req1 = """
     SELECT ?disease ?name (count(?symptom) AS ?count) WHERE {
         GRAPH <http://localhost:8082> {
@@ -181,15 +186,49 @@ if submitted & (txt!="") :
     ORDER BY DESC(?count)
     LIMIT 10
     """
+
+    req2 = """
+    select distinct ?s1 ?slabel (abs(5 - (count(?d1))) AS ?c1) where {
+        SERVICE <https://query.wikidata.org/sparql> {
+            ?d1 wdt:P780 ?s1 .
+            ?s1 rdfs:label ?slabel .
+
+            filter(lang(?slabel) = 'en')
+        }
+        {
+
+            SELECT (?disease as ?d1) ?name (count(?symptom) AS ?count) WHERE {
+                cons:""" + str(folder_id) + """
+                    mp:declaredSymptom ?symptom  .
+
+                SERVICE <https://query.wikidata.org/sparql> {
+                    ?disease
+                        wdt:P31 wd:Q112193867 ;
+                        wdt:P780 ?symptom ;
+                        rdfs:label ?name .
+
+                    filter(lang(?name) = 'en')
+
+                }
+            }
+            GROUP BY ?disease
+            ORDER BY DESC(?count)
+            LIMIT 10
+        }
+    }
+    GROUP BY ?s1
+    ORDER BY DESC(?c1)
+    """
+
     st.subheader("search the symptoms of the consultation of the wikidata and returns the diseases which have these symptoms + meds")
-    q1res = g.query(req1,initNs={
+    q1res = g.query(req2,initNs={
         'cons': 'http://www.inria.org/consultations/',
         'mp': 'http://www.inria.org/property/',
         'wd': 'http://www.wikidata.org/entity/',
         'wdt': 'http://www.wikidata.org/prop/direct/',
         'rdfs' : 'http://www.w3.org/2000/01/rdf-schema#'
     })
-    st.write("```" + req1)
+    st.write("```" + req2)
     st.subheader("RESULT")
     for item in q1res:
         st.write(item)
