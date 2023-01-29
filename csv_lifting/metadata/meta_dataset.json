@@ -4,7 +4,12 @@
     "aboutUrl": "http://www.inria.org/entity/{Disease}",
     "tableSchema": {
         "primaryKey" : "Disease",
-        "columns": [{
+        "columns": [
+        {
+            "name": "id",
+            "supressionOutput": "True"
+        },
+        {
             "name": "Disease",
             "datatype" : "string",
             "propertyUrl": "schema:name",
