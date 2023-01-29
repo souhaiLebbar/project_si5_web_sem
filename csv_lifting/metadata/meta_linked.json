@@ -150,86 +150,103 @@
         {
             "name" : "linked_symptom_1",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
-            "datatype" : "string"
+            "datatype" : "string",
+            "valueUrl": "http://www.inria.org/entity/{linked_symptom_1}"
         },
         {
             "name" : "linked_symptom_2",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "valueUrl": "http://www.inria.org/entity/{linked_symptom_2}",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_3",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "valueUrl": "http://www.inria.org/entity/{linked_symptom_3}",
             "datatype" : "string" 
         },
         {
             "name" : "linked_symptom_4",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "valueUrl": "http://www.inria.org/entity/{linked_symptom_4}",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_5",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "valueUrl": "http://www.inria.org/entity/{linked_symptom_5}",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_6",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "valueUrl": "http://www.inria.org/entity/{linked_symptom_6}",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_7",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "valueUrl": "http://www.inria.org/entity/{linked_symptom_7}",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_8",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "valueUrl": "http://www.inria.org/entity/{linked_symptom_8}",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_9",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "valueUrl": "http://www.inria.org/entity/{linked_symptom_9}",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_10",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "valueUrl": "http://www.inria.org/entity/{linked_symptom_10}",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_11",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "valueUrl": "http://www.inria.org/entity/{linked_symptom_11}",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_12",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "valueUrl": "http://www.inria.org/entity/{linked_symptom_12}",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_13",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "valueUrl": "http://www.inria.org/entity/{linked_symptom_13}",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_14",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "valueUrl": "http://www.inria.org/entity/{linked_symptom_14}",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_15",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "valueUrl": "http://www.inria.org/entity/{linked_symptom_15}",
             "datatype" : "string"
         },        
         {
             "name" : "linked_symptom_16",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "valueUrl": "http://www.inria.org/entity/{linked_symptom_16}",
             "datatype" : "string"
         },
         {
             "name" : "linked_symptom_17",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
+            "valueUrl": "http://www.inria.org/entity/{linked_symptom_17}",
             "datatype" : "string"
         }
         ]
