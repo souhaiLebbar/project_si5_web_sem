@@ -8,7 +8,7 @@
 
 ms:DiseaseShape
     a sh:Shape ;
-    sh:targetClass mc:Disease
+    sh:targetClass mc:Disease ;
     sh:not [
         sh:class
             mc:Patient ,
@@ -27,27 +27,34 @@ ms:PatientShape
     a sh:Shape ;
     sh:targetClass mc:Patient ;
     sh:not [
-        mc:Disease ,
-        mc:Consultation ,
-        mc:Symptom ,
-        mc:Doctor ,
-        mc:Medicine
+        sh:class
+            mc:Disease ,
+            mc:Consultation ,
+            mc:Symptom ,
+            mc:Doctor ,
+            mc:Medicine
     ] ;
     sh:property [
         sh:path mp:consulted ;
         sh:datatype mc:Consultation ;
         sh:minCount 1
-    ] .
+    ] , [
+        sh:path mp:name ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:maxCount 1
+    ].
 
 ms:ConsultationShape
     a sh:Shape ;
     sh:targetClass mc:Consultation ;
     sh:not [
-        mc:Disease ,
-        mc:Patient ,
-        mc:Symptom ,
-        mc:Doctor ,
-        mc:Medicine
+        sh:class
+            mc:Disease ,
+            mc:Patient ,
+            mc:Symptom ,
+            mc:Doctor ,
+            mc:Medicine
     ] ;
     sh:property
         [
@@ -58,33 +65,68 @@ ms:ConsultationShape
         [
             sh:path mp:docInCharge ;
             sh:datatype mc:Doctor ;
-            sh:minCount 1
+            sh:minCount 1 ;
+            sh:maxCount 1
+        ] ,
+        [
+            sh:path mp:tookPlace ;
+            sh:datatype xsd:dateTime ;
+            sh:minCount 1 ;
+            sh:maxCount 1
+        ] ,
+        [
+            sh:path mp:triedMed ;
+            sh:datatype mc:Medicine
         ] .
 
 ms:SymptomShape
     a sh:Shape ;
     sh:targetClass mc:Symptom ;
     sh:not [
-        mc:Disease , # peut être  enlevé (voir crise de tétanie)
-        mc:Patient ,
-        mc:Consltation ,
-        mc:Doctor ,
-        mc:Medicine
+        sh:class
+            mc:Disease , # peut être  enlevé (voir crise de tétanie)
+            mc:Patient ,
+            mc:Consltation ,
+            mc:Doctor ,
+            mc:Medicine
+    ] ;
+    sh:property [
+        sh:path mp:symptomOf ;
+        sh:datatype mc:Disease ;
+        sh:minCount 1
     ] .
-
 
 ms:MedicineShape
     a sh:Shape ;
     sh:targetClass mc:Medicine ;
     sh:not [
-        mc:Disease ,
-        mc:Patient ,
-        mc:Consltation ,
-        mc:Doctor ,
-        mc:Symptom
+        sh:class
+            mc:Disease ,
+            mc:Patient ,
+            mc:Consltation ,
+            mc:Doctor ,
+            mc:Symptom
     ] ;
     sh:property [
         sh:path mc:cures ;
-        sh:datatype Disease ;
+        sh:datatype mc:Disease ;
         sh:minCount 1
+    ] .
+
+ms:DoctorShape
+    a sh:Shape ;
+    sh:targetClass mc:Doctor ;
+    sh:not [
+        sh:class
+            mc:Disease ,
+            mc:Patient ,
+            mc:Consltation ,
+            mc:Doctor ,
+            mc:Symptom
+    ] ;
+    sh:property [
+        sh:path mp:name ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:maxCount 1
     ] .

@@ -196,6 +196,7 @@ mp:hasSymptom
 
 mp:hasTherapy
     a owl:ObjectProperty ;
+    owl:inverseOf mp:cures ;
     rdfs:domain mc:Disease ;
     rdfs:range mc:Therapy ;
     rdfs:comment
@@ -227,3 +228,15 @@ mp:cures
     rdfs:label
         "cures"@en ,
         "guéris"@fr .
+
+mp:symptomOf
+    a owl:ObjectProperty ;
+    rdfs:domain mc:Symptom ;
+    rdfs:range mc:Disease ;
+    owl:inverseOf mp:hasSymptom ;
+    rdfs:comment
+        "is a symptom of the given disease"@en ,
+        "est un symptôme de la maladie donnée"@fr ;
+    rdfs:label
+        "un symptôme de"@fr ,
+        "a symptom of"@en .
