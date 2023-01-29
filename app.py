@@ -96,6 +96,8 @@ def extract_duples(folder_id, text):
 def create_query(name, ssm, consultation, duples, doctor_id):
     
     folder_properties = '\n                '.join([f'{item[0]} {item[1]} ;' for item in duples])[:-1]
+    symptoms = [item[1] for item in duples if item[0] == "mp:declaredSymptom"]
+    symptom_instances = '\n                '.join([f"<{symptom}> a mc:Symptom ." for symptom in symptoms])
     
     return """
     PREFIX pat: <http://www.inria.org/patients/>
@@ -118,6 +120,8 @@ def create_query(name, ssm, consultation, duples, doctor_id):
                 mp:docInCharge doc:""" + str(doctor_id) + """ ;
                 mp:tookPlace \"""" + str(datetime.now()).replace(' ', 'T').split('.')[0] + """\"^^xsd:dateTime ;
                 """ + folder_properties + """.
+
+                """ + symptom_instances + """
             
         }
     }"""
