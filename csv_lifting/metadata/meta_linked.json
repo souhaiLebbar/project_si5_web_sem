@@ -145,6 +145,7 @@
         {
             "name" : "link_disease",
             "propertyUrl": "http://www.inria.org/entity/Disease",
+            "valueUrl": "http://www.inria.org/entity/{link_disease}",
             "datatype" : "string"
         },
         {
