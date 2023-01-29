@@ -11,116 +11,240 @@
             "name": "Disease",
             "datatype" : "string",
             "propertyUrl": "schema:name",
-            "dc:description": "Disease name"
+            "dc:description": "Disease name",
+            "suppressOutput": true        
         },
         {
             "name":"Symptom_1",
             "datatype" : "string",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
-            "dc:description" : "1st symptome of the patient."
+            "dc:description" : "1st symptome of the patient.",
+            "suppressOutput": true        
         },
         {
             "name":"Symptom_2",
             "datatype" : "string",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
-            "dc:description" : "2nd symptome of the patient."
+            "dc:description" : "2nd symptome of the patient.",
+            "suppressOutput": true        
         },
         {
             "name":"Symptom_3",
             "datatype" : "string",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
-            "dc:description" : "3th symptome of the patient."
+            "dc:description" : "3th symptome of the patient.",
+            "suppressOutput": true        
         },
         {
             "name":"Symptom_4",
             "datatype" : "string",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
-            "dc:description" : "4th symptome of the patient."
+            "dc:description" : "4th symptome of the patient.",
+            "suppressOutput": true        
         },
         {
             "name":"Symptom_5",
             "datatype" : "string",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
-            "dc:description" : "5th symptome of the patient."
+            "dc:description" : "5th symptome of the patient.",
+            "suppressOutput": true        
         },
         {
             "name":"Symptom_6",
             "datatype":"string",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
-            "dc:description" : "6th symptome of the patient."
+            "dc:description" : "6th symptome of the patient.",
+            "suppressOutput": true        
         },
         {
             "name":"Symptom_7",
             "datatype": "string",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
-            "dc:description" : "7th symptome of the patient."
+            "dc:description" : "7th symptome of the patient.",
+            "suppressOutput": true        
         },
         {
             "name" : "Symptom_8",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string",
-            "dc:description" : "8th symptome of the patient."
+            "dc:description" : "8th symptome of the patient.",
+            "suppressOutput": true        
         },
         {
             "name" : "Symptom_9",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string",
-            "dc:description" : "9th symptome of the patient."
+            "dc:description" : "9th symptome of the patient.",
+            "suppressOutput": true        
 
         },        
         {
             "name" : "Symptom_10",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string",
-            "dc:description" : "10th symptome of the patient."
+            "dc:description" : "10th symptome of the patient.",
+            "suppressOutput": true        
         },        
         {
             "name" : "Symptom_11",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string",
-            "dc:description" : "11th symptome of the patient."
+            "dc:description" : "11th symptome of the patient.",
+            "suppressOutput": true        
         },        
         {
             "name" : "Symptom_12",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string",
-            "dc:description" : "12th symptome of the patient."
+            "dc:description" : "12th symptome of the patient.",
+            "suppressOutput": true        
         },        
         {
             "name" : "Symptom_13",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string",
-            "dc:description" : "13th symptome of the patient."
+            "dc:description" : "13th symptome of the patient.",
+            "suppressOutput": true        
         },        
         {
             "name" : "Symptom_14",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string",
-            "dc:description" : "14th symptome of the patient."
+            "dc:description" : "14th symptome of the patient.",
+            "suppressOutput": true        
         },        
         {
             "name" : "Symptom_15",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string",
-            "dc:description" : "15th symptome of the patient."
+            "dc:description" : "15th symptome of the patient.",
+            "suppressOutput": true        
         },        
         {
             "name" : "Symptom_16",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string",
-            "dc:description" : "16th symptome of the patient."
+            "dc:description" : "16th symptome of the patient.",
+            "suppressOutput": true        
         },        
         {
             "name" : "Symptom_17",
             "propertyUrl": "http://www.inria.org/property/hasSyndrom",
             "datatype" : "string",
-            "dc:description" : "17th symptome of the patient."
+            "dc:description" : "17th symptome of the patient.",
+            "suppressOutput": true        
         },
         {
-            "name": "type_disease",
-            "virtual": true,
-            "propertyUrl": "rdf:type",
-            "valueUrl": "http://www.inria.org/entity/Disease"
+            "name" : "Unnamed",
+            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "datatype" : "string",
+            "dc:description" : "same linked disease",
+            "suppressOutput": true    
+        },
+        {
+            "name" : "link_disease",
+            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "datatype" : "string",
+            "dc:description" : "same linked disease"
+        },
+        {
+            "name" : "linked_symptom_1",
+            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "datatype" : "string"
+        },
+        {
+            "name" : "linked_symptom_2",
+            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "datatype" : "string"
+        },
+        {
+            "name" : "linked_symptom_3",
+            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "datatype" : "string" 
+        },
+        {
+            "name" : "linked_symptom_4",
+            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "datatype" : "string",
+            "dc:description" : "same linked disease"    
+        },
+        {
+            "name" : "linked_symptom_5",
+            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "datatype" : "string",
+            "dc:description" : "same linked disease"
+        },
+        {
+            "name" : "linked_symptom_6",
+            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "datatype" : "string",
+            "dc:description" : "same linked disease"
+        },
+        {
+            "name" : "linked_symptom_7",
+            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "datatype" : "string",
+            "dc:description" : "same linked disease"
+        },
+        {
+            "name" : "linked_symptom_8",
+            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "datatype" : "string",
+            "dc:description" : "same linked disease"
+        },
+        {
+            "name" : "linked_symptom_9",
+            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "datatype" : "string",
+            "dc:description" : "same linked disease"
+        },
+        {
+            "name" : "linked_symptom_10",
+            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "datatype" : "string",
+            "dc:description" : "same linked disease"
+        },
+        {
+            "name" : "linked_symptom_11",
+            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "datatype" : "string",
+            "dc:description" : "same linked disease"
+        },
+        {
+            "name" : "linked_symptom_12",
+            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "datatype" : "string",
+            "dc:description" : "same linked disease"
+        },
+        {
+            "name" : "linked_symptom_13",
+            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "datatype" : "string",
+            "dc:description" : "same linked disease"
+        },
+        {
+            "name" : "linked_symptom_14",
+            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "datatype" : "string",
+            "dc:description" : "same linked disease"
+        },
+        {
+            "name" : "linked_symptom_15",
+            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "datatype" : "string",
+            "dc:description" : "same linked disease"
+        },        
+        {
+            "name" : "linked_symptom_16",
+            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "datatype" : "string",
+            "dc:description" : "same linked disease"
+        },
+        {
+            "name" : "linked_symptom_17",
+            "propertyUrl": "https://www.wikidata.org/entity/Q464067",
+            "datatype" : "string",
+            "dc:description" : "same linked disease"
         }
         ]
       }
