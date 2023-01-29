@@ -1,0 +1,62 @@
+
+"""
+if submitted & (txt!=""):
+    st.title("Diagnostic report")
+    coref = spacy.load("en_core_web_lg")
+    coref.add_pipe('coreferee')
+
+    disease = spacy.load("en_core_sci_sm")
+    disease.add_pipe('entityfishing', config={
+            "extra_info": True,
+            "api_ef_base": "http://nerd.huma-num.fr/nerd/service"
+        })
+    sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
+    sparql.setReturnFormat(JSON)
+
+    doctor_id = uuid4()
+    g = Dataset()
+    st.subheader("Patient Graph : INSERT query:")
+    folder_id, insertQuery = text_2_sparql("Johnson", "684656-8146516-13520", txt, doctor_id)
+    st.write("```"+insertQuery)
+    g.update(insertQuery)
+    req1 = \"""
+    SELECT ?disease ?name (count(?symptom) AS ?count) WHERE {
+        GRAPH <http://localhost:8082> {
+        cons:\""" + str(folder_id) + \"""
+            mp:declaredSymptom ?symptom  .
+
+            SERVICE <https://query.wikidata.org/sparql> {
+                ?disease
+            wdt:P31 wd:Q112193867 ;
+            wdt:P780 ?symptom ;
+            rdfs:label ?name .
+
+            filter(lang(?name) = 'en') 
+            }
+
+        }
+    }
+    GROUP BY ?disease
+    ORDER BY DESC(?count)
+    LIMIT 10
+    \"""
+    st.subheader("search the symptoms of the consultation of the wikidata and returns the diseases which have these symptoms + meds")
+    results = g.query(req1,initNs={
+        'cons': 'http://www.inria.org/consultations/',
+        'mp': 'http://www.inria.org/property/',
+        'wd': 'http://www.wikidata.org/entity/',
+        'wdt': 'http://www.wikidata.org/prop/direct/',
+        'rdfs' : 'http://www.w3.org/2000/01/rdf-schema#'
+    })
+    # results is the result of the SPARQL query
+    df = pd.DataFrame(results["results"]["bindings"])
+
+    # Transform the data frame to have only the necessary columns
+    df = df[["disease", "name", "count"]]
+    df = df.rename(columns={"disease": "Disease", "name": "Name", "count": "Count"})
+    
+    st.subheader("RESULT")
+    #for item in q1res:
+    #    st.write(item)
+    st.write(df)
+"""

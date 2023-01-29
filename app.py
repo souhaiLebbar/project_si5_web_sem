@@ -93,7 +93,7 @@ def extract_duples(folder_id, text):
             
     return duples
 
-def create_query(name, ssm, folder_id, duples, doctor_id):
+def create_query(name, ssm, consultation, duples, doctor_id):
     
     folder_properties = '\n                '.join([f'{item[0]} {item[1]} ;' for item in duples])[:-1]
     
@@ -111,9 +111,9 @@ def create_query(name, ssm, folder_id, duples, doctor_id):
             pat:""" + ssm + """
                 a mc:Patient ;
                 mp:name \"""" + name + """\" ;
-                mp:consulted cons:""" + str(folder_id) + """ .
+                mp:consulted cons:""" + str(consultation) + """ .
                 
-            cons:""" + str(folder_id) + """
+            cons:""" + str(consultation) + """
                 a mc:Consultation ;
                 mp:docInCharge doc:""" + str(doctor_id) + """ ;
                 mp:tookPlace \"""" + str(datetime.now()).replace(' ', 'T').split('.')[0] + """\"^^xsd:dateTime ;
@@ -126,21 +126,74 @@ def text_2_sparql(name, ssm, text, doctor_id):
     folder_id = uuid4()
     preprocessed = coref_resolution(name, text)
     duples = extract_duples(folder_id, preprocessed)
-    return create_query(name, ssm, folder_id, duples, doctor_id)
+    return folder_id, create_query(name, ssm, folder_id, duples, doctor_id)
 
 
 st.title("Doctor's visit")
 
 
 with st.form("Patient form"):
-   title = st.text_input('First name', 'Johnson')
-   title = st.text_input('Last name', 'Dwayn')
-   title = st.text_input('NSS', '160 40 50 22 35 00')
+   fname = st.text_input('First name', 'Johnson')
+   lname = st.text_input('Last name', 'Dwayn')
+   nss = st.text_input('NSS', '160 40 50 22 35 00')
    d= st.date_input("Patient birthday",) 
    txt = st.text_area('How do your patient feel ?',"Johnson suffered from a fever. He also had a headache for 3 days. He also has hypocalcemia. He already tried peramivir")
    # Every form must have a submit button.
    submitted = st.form_submit_button("Submit")
 
+if submitted & (fname=="test") :
+    st.title("Diagnostic report")
+    coref = spacy.load("en_core_web_lg")
+    coref.add_pipe('coreferee')
+
+    disease = spacy.load("en_core_sci_sm")
+    disease.add_pipe('entityfishing', config={
+            "extra_info": True,
+            "api_ef_base": "http://nerd.huma-num.fr/nerd/service"
+        })
+    sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
+    sparql.setReturnFormat(JSON)
+
+    doctor_id = uuid4()
+    g = Dataset()
+    st.subheader("Patient Graph : INSERT query:")
+    folder_id, insertQuery = text_2_sparql("Johnson", "684656-8146516-13520", txt, doctor_id)
+    st.write("```"+insertQuery)
+    g.update(insertQuery)
+    req1 = """
+    SELECT ?disease ?name (count(?symptom) AS ?count) WHERE {
+        GRAPH <http://localhost:8082> {
+        cons:""" + str(folder_id) + """
+            mp:declaredSymptom ?symptom  .
+
+            SERVICE <https://query.wikidata.org/sparql> {
+                ?disease
+            wdt:P31 wd:Q112193867 ;
+            wdt:P780 ?symptom ;
+            rdfs:label ?name .
+
+            filter(lang(?name) = 'en') 
+            }
+
+        }
+    }
+    GROUP BY ?disease
+    ORDER BY DESC(?count)
+    LIMIT 10
+    """
+    st.subheader("search the symptoms of the consultation of the wikidata and returns the diseases which have these symptoms + meds")
+    q1res = g.query(req1,initNs={
+        'cons': 'http://www.inria.org/consultations/',
+        'mp': 'http://www.inria.org/property/',
+        'wd': 'http://www.wikidata.org/entity/',
+        'wdt': 'http://www.wikidata.org/prop/direct/',
+        'rdfs' : 'http://www.w3.org/2000/01/rdf-schema#'
+    })
+    st.write("```" + req1)
+    st.subheader("RESULT")
+    for item in q1res:
+        st.write(item)
+    
 if submitted & (txt!=""):
     st.title("Diagnostic report")
     coref = spacy.load("en_core_web_lg")
@@ -157,42 +210,71 @@ if submitted & (txt!=""):
     doctor_id = uuid4()
     g = Dataset()
     st.subheader("Patient Graph : INSERT query:")
-    insertQuery = text_2_sparql("Johnson", "684656-8146516-13520", txt, doctor_id)
-    st.write("```"+insertQuery)
-    g.update(insertQuery)
-    req1 = """
+    #folder_id, insertQuery = text_2_sparql("Johnson", "684656-8146516-13520", txt, doctor_id)
+    insert_test = """
+    PREFIX pat: <http://www.inria.org/patients/>
+    PREFIX doc: <http://www.inria.org/doctors/>
     PREFIX cons: <http://www.inria.org/consultations/>
+    PREFIX mc: <http://www.inria.org/entity/>
     PREFIX mp: <http://www.inria.org/property/>
     PREFIX wd: <http://www.wikidata.org/entity/>
-    PREFIX wdt: <http://www.wikidata.org/prop/direct/>
-    PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-
+    PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+        
+    INSERT DATA { 
+                GRAPH <http://localhost:8082>{
+                pat:f16995b6-e355-47fd-a5fd-26880da8eb17
+                    a mc:Patient ;
+                    mp:name "Johnson" ;
+                    mp:consulted cons:f16995b6-e355-47fd-a5fd-26880da8eb14 .
+                    
+                cons:f16995b6-e355-47fd-a5fd-26880da8eb18
+                    a mc:Consultation ;
+                    mp:docInCharge doc:a29d1181-e1d9-447d-81ca-d7e6c7fd2060 ;
+                    mp:tookPlace "2023-01-25T14:22:51"^^xsd:dateTime ;
+                    mp:declaredSymptom wd:Q606216 ;
+                    mp:declaredSymptom wd:Q38933 ;
+                    mp:declaredSymptom wd:Q35805 ;
+                    mp:declaredSymptom wd:Q86 ;
+                    mp:triedMed wd:Q12187 .
+                }
+        }
+    """
+    st.write("```"+insert_test)
+    g.update(insert_test)
+    req1 = """
     SELECT ?disease ?name (count(?symptom) AS ?count) WHERE {
-        cons:f16995b6-e355-47fd-a5fd-26880da8eb18
+        GRAPH <http://localhost:8082> {
+            cons:f16995b6-e355-47fd-a5fd-26880da8eb18
             mp:declaredSymptom ?symptom  .
 
-        SERVICE <https://query.wikidata.org/sparql> {
-            ?disease
-        wdt:P31 wd:Q112193867 ;
-        wdt:P780 ?symptom ;
-        rdfs:label ?name .
+            SERVICE <https://query.wikidata.org/sparql> {
+                ?disease
+            wdt:P31 wd:Q112193867 ;
+            wdt:P780 ?symptom ;
+            rdfs:label ?name .
 
-        filter(lang(?name) = 'en') 
-        
-    }
+            filter(lang(?name) = 'en') 
+            }
+
+        }
     }
     GROUP BY ?disease
     ORDER BY DESC(?count)
     LIMIT 10
     """
-    st.write(g.serialize())
     st.subheader("search the symptoms of the consultation of the wikidata and returns the diseases which have these symptoms + meds")
-    q1res = g.query(req1)
-    st.write("```"+req1)
+    q1res = g.query(req1,initNs={
+        'cons': 'http://www.inria.org/consultations/',
+        'mp': 'http://www.inria.org/property/',
+        'wd': 'http://www.wikidata.org/entity/',
+        'wdt': 'http://www.wikidata.org/prop/direct/',
+        'rdfs' : 'http://www.w3.org/2000/01/rdf-schema#'
+    })
+
     st.subheader("RESULT")
-    print(len(q1res))
     for item in q1res:
         st.write(item)
+    #st.write(df)   
 
 if submitted & (txt=="wiki"):
     sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
