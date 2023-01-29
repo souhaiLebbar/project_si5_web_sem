@@ -137,7 +137,7 @@ with st.form("Patient form"):
    title = st.text_input('Last name', '')
    title = st.text_input('NSS', '')
    d= st.date_input("Patient birthday",) 
-   txt = st.text_area('How do your patient feel ?',"")
+   txt = st.text_area('How do your patient feel ?',"Johnson suffered from a fever. He also had a headache for 3 days. He also has hypocalcemia. He already tried peramivir")
    # Every form must have a submit button.
    submitted = st.form_submit_button("Submit")
 
@@ -177,7 +177,7 @@ if submitted & (txt!=""):
 
 if submitted & (txt=="wiki"):
     sparql = SPARQLWrapper("https://query.wikidata.org/sparql")
-    # Below we SELECT both the hot sauce items & their labels
+    # Below we SELECT both the hot sauce items & their labelsclear
     # in the WHERE clause we specify that we want labels as well as items
     sparql.setQuery("""
         PREFIX wdt: <http://www.wikidata.org/prop/direct/>
