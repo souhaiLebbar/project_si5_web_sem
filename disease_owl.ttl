@@ -53,6 +53,17 @@ mc:Consultation
     a
         owl:Class ,
         skos:Concept ;
+    owl:subClassOf
+        [
+            a owl:Restriction ;
+            owl:onProperty mp:declaredSymptom ;
+            owl:minCardinality 1
+        ] ,
+        [
+            a owl:Restriction ;
+            owl:onProperty mp:docInCharge ;
+            owl:minCardinality 1
+        ] ;
     owl:sameAs wd:Q4014799 ;
     skos:definition 
         "Appointment where a patient sees a doctor for a health problem"@en ,
@@ -91,6 +102,11 @@ mc:Medicine
         owl:class ,
         skos:Concept ;
     owl:sameAs wd:Q12140 ;
+    owl:subClassOf [
+        a owl:Restriction ;
+        owl:onProperty mp:cures ;
+        owl:minCardinality 1
+    ] ;
     skos:definition
         "Substance used to diagnose, cure, treat, or prevent disease"@en ,
         "Type de substance destinée à soigner, diagnostiquer, traîter ou prévenir une maladie"@fr ;
@@ -199,3 +215,15 @@ mp:hasWeight
     rdfs:label
         "has severity degree"@en ,
         "a pour degré de gravité"@fr .
+
+mp:cures
+    a owl:ObjectProperty ;
+    rdfs:domain mc:Medicine ;
+    rdfs:range mc:Disease ;
+    owl:inverseOf mp:hasTherapy ;
+    rdfs:comment
+        "cures the given disease"@en ,
+        "guéris la maladie"@fr ;
+    rdfs:label
+        "cures"@en ,
+        "guéris"@fr .
