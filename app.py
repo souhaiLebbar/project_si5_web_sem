@@ -10,6 +10,7 @@ import coreferee
 from uuid import uuid4
 from datetime import datetime
 from pyshacl import validate
+from rdflib_owl import OWL_NS, OWLRL_Profile
 
 def coref_resolution(name, text):
     final_text = ""
@@ -167,7 +168,11 @@ if submitted & (txt!="") :
     s = Graph().parse("disease_shacl.ttl", format="turtle")
     conforms, report, message = validate(g, shacl_graph=s, advanced=True, debug=False)
     st.write("```"+message)
-
+    # Apply OWL RL reasoner to the graph
+    st.subheader("adding owl reasonner :")
+    profile = OWLRL_Profile()
+    results = profile.check(g)
+    st.write(results)
     req1 = """
     SELECT ?disease ?name (count(?symptom) AS ?count) WHERE {
         GRAPH <http://localhost:8082> {
@@ -233,7 +238,8 @@ if submitted & (txt!="") :
         'wd': 'http://www.wikidata.org/entity/',
         'wdt': 'http://www.wikidata.org/prop/direct/',
         'rdfs' : 'http://www.w3.org/2000/01/rdf-schema#'
-    })
+    }
+    )
     st.write("```" + my_req)
     st.subheader("RESULT")
     for item in q1res:
