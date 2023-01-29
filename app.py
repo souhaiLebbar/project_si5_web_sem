@@ -139,6 +139,9 @@ with st.form("Patient form"):
    d= st.date_input("Patient birthday",) 
    txt = st.text_area('How do your patient feel ?',"Johnson suffered from a fever. He also had a headache for 3 days. He also has hypocalcemia. He already tried peramivir")
    # Every form must have a submit button.
+   option = st.selectbox(
+     'Which sparql request would you execute ?',
+     ('Query1_symtoms', 'Query2_flags'))
    submitted = st.form_submit_button("Submit")
 
 if submitted & (txt!="") :
@@ -156,7 +159,7 @@ if submitted & (txt!="") :
 
     doctor_id = uuid4()
     g = Dataset()
-    st.subheader("Patient Graph : INSERT query:")
+    st.subheader("INSERT query:")
     folder_id, insertQuery = text_2_sparql("Johnson", "684656-8146516-13520", txt, doctor_id)
     st.write("```"+insertQuery)
     g.update(insertQuery)
@@ -219,16 +222,19 @@ if submitted & (txt!="") :
     GROUP BY ?s1
     ORDER BY DESC(?c1)
     """
-
-    st.subheader("search the symptoms of the consultation of the wikidata and returns the diseases which have these symptoms + meds")
-    q1res = g.query(req2,initNs={
+    if option == "Query1_symtoms":
+        my_req = req1
+    else:
+        my_req = req2
+    st.subheader("SELECT Query : ")
+    q1res = g.query(my_req,initNs={
         'cons': 'http://www.inria.org/consultations/',
         'mp': 'http://www.inria.org/property/',
         'wd': 'http://www.wikidata.org/entity/',
         'wdt': 'http://www.wikidata.org/prop/direct/',
         'rdfs' : 'http://www.w3.org/2000/01/rdf-schema#'
     })
-    st.write("```" + req2)
+    st.write("```" + my_req)
     st.subheader("RESULT")
     for item in q1res:
         st.write(item)
