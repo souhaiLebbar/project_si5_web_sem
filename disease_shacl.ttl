@@ -58,11 +58,6 @@ ms:ConsultationShape
     ] ;
     sh:property
         [
-            sh:path mp:declaredSymptom ;
-            sh:class mc:Symptom ;
-            sh:minCount 1
-        ] ,
-        [
             sh:path mp:docInCharge ;
             sh:class mc:Doctor ;
             sh:minCount 1 ;
