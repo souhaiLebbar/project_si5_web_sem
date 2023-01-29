@@ -99,6 +99,8 @@ def create_query(name, ssm, consultation, duples, doctor_id):
     folder_properties = '\n                '.join([f'{item[0]} {item[1]} ;' for item in duples])[:-1]
     symptoms = [item[1] for item in duples if item[0] == "mp:declaredSymptom"]
     symptom_instances = '\n                '.join([f"<{symptom}> a mc:Symptom ." for symptom in symptoms])
+    meds = [item[1] for item in duples if item[0] == "mp:triedMed"]
+    med_instances = '\n                '.join([f"<{med}> a mc:Medicine ." for med in meds])
     
     return """
     PREFIX pat: <http://www.inria.org/patients/>
@@ -123,6 +125,8 @@ def create_query(name, ssm, consultation, duples, doctor_id):
                 """ + folder_properties + """.
 
                 """ + symptom_instances + """
+                """ + med_instances + """
+                doc:""" + str(doctor_id) + """ a mc:Doctor
             
         }
     }"""
